@@ -1,0 +1,2 @@
+{% load i18n %}
+{% blocktrans with shop_name=shop_name %}Wellcome to {{ shop_name }} bot.{% endblocktrans %}

@@ -1,0 +1,1 @@
+{% load telegrambot_filters %}{% autoescape off %}{{ category_list |keyboard_field:"command=categories&field=slug&per_line=1"}}{% endautoescape %}

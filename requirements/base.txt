@@ -1,0 +1,2 @@
+django-oscar==1.1.1
+django-telegram-bot==0.1.0

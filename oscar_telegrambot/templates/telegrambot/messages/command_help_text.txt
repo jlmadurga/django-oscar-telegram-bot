@@ -1,0 +1,6 @@
+{% load i18n %}
+{% trans "I am the bot of" %}{{ shop_name }}
+
+{% trans "You can control by sending these commands:" %}
+
+/categories {% trans "List of categories" %}

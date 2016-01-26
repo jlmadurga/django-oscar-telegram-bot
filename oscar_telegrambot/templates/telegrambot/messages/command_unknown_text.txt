@@ -1,0 +1,2 @@
+{% load i18n %}
+{% trans "Unknown command. Use /help to see list of commands" %}

@@ -1,0 +1,7207 @@
+[
+{
+  "fields": {
+    "track_stock": true,
+    "options": [],
+    "requires_shipping": true,
+    "name": "T-shirt",
+    "slug": "t-shirt"
+  },
+  "model": "catalogue.productclass",
+  "pk": 1
+},
+{
+  "fields": {
+    "track_stock": true,
+    "options": [],
+    "requires_shipping": true,
+    "name": "Book",
+    "slug": "book"
+  },
+  "model": "catalogue.productclass",
+  "pk": 2
+},
+{
+  "fields": {
+    "description": "",
+    "numchild": 2,
+    "slug": "books",
+    "depth": 1,
+    "path": "0002",
+    "image": "",
+    "name": "Books"
+  },
+  "model": "catalogue.category",
+  "pk": 2
+},
+{
+  "fields": {
+    "description": "",
+    "numchild": 1,
+    "slug": "fiction",
+    "depth": 2,
+    "path": "00020001",
+    "image": "",
+    "name": "Fiction"
+  },
+  "model": "catalogue.category",
+  "pk": 3
+},
+{
+  "fields": {
+    "description": "",
+    "numchild": 0,
+    "slug": "computers-in-literature",
+    "depth": 3,
+    "path": "000200010001",
+    "image": "",
+    "name": "Computers in Literature"
+  },
+  "model": "catalogue.category",
+  "pk": 4
+},
+{
+  "fields": {
+    "description": "",
+    "numchild": 2,
+    "slug": "non-fiction",
+    "depth": 2,
+    "path": "00020002",
+    "image": "",
+    "name": "Non-Fiction"
+  },
+  "model": "catalogue.category",
+  "pk": 5
+},
+{
+  "fields": {
+    "description": "",
+    "numchild": 0,
+    "slug": "essential-programming",
+    "depth": 3,
+    "path": "000200020001",
+    "image": "",
+    "name": "Essential programming"
+  },
+  "model": "catalogue.category",
+  "pk": 6
+},
+{
+  "fields": {
+    "description": "",
+    "numchild": 0,
+    "slug": "hacking",
+    "depth": 3,
+    "path": "000200020002",
+    "image": "",
+    "name": "Hacking"
+  },
+  "model": "catalogue.category",
+  "pk": 7
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 12
+  },
+  "model": "catalogue.productcategory",
+  "pk": 4
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 13
+  },
+  "model": "catalogue.productcategory",
+  "pk": 5
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 14
+  },
+  "model": "catalogue.productcategory",
+  "pk": 6
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 15
+  },
+  "model": "catalogue.productcategory",
+  "pk": 7
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 16
+  },
+  "model": "catalogue.productcategory",
+  "pk": 8
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 17
+  },
+  "model": "catalogue.productcategory",
+  "pk": 9
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 18
+  },
+  "model": "catalogue.productcategory",
+  "pk": 10
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 19
+  },
+  "model": "catalogue.productcategory",
+  "pk": 11
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 20
+  },
+  "model": "catalogue.productcategory",
+  "pk": 12
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 21
+  },
+  "model": "catalogue.productcategory",
+  "pk": 13
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 22
+  },
+  "model": "catalogue.productcategory",
+  "pk": 14
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 23
+  },
+  "model": "catalogue.productcategory",
+  "pk": 15
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 24
+  },
+  "model": "catalogue.productcategory",
+  "pk": 16
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 25
+  },
+  "model": "catalogue.productcategory",
+  "pk": 17
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 26
+  },
+  "model": "catalogue.productcategory",
+  "pk": 18
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 27
+  },
+  "model": "catalogue.productcategory",
+  "pk": 19
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 28
+  },
+  "model": "catalogue.productcategory",
+  "pk": 20
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 29
+  },
+  "model": "catalogue.productcategory",
+  "pk": 21
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 30
+  },
+  "model": "catalogue.productcategory",
+  "pk": 22
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 31
+  },
+  "model": "catalogue.productcategory",
+  "pk": 23
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 32
+  },
+  "model": "catalogue.productcategory",
+  "pk": 24
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 33
+  },
+  "model": "catalogue.productcategory",
+  "pk": 25
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 34
+  },
+  "model": "catalogue.productcategory",
+  "pk": 26
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 35
+  },
+  "model": "catalogue.productcategory",
+  "pk": 27
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 36
+  },
+  "model": "catalogue.productcategory",
+  "pk": 28
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 37
+  },
+  "model": "catalogue.productcategory",
+  "pk": 29
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 38
+  },
+  "model": "catalogue.productcategory",
+  "pk": 30
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 39
+  },
+  "model": "catalogue.productcategory",
+  "pk": 31
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 40
+  },
+  "model": "catalogue.productcategory",
+  "pk": 32
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 41
+  },
+  "model": "catalogue.productcategory",
+  "pk": 33
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 42
+  },
+  "model": "catalogue.productcategory",
+  "pk": 34
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 43
+  },
+  "model": "catalogue.productcategory",
+  "pk": 35
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 44
+  },
+  "model": "catalogue.productcategory",
+  "pk": 36
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 45
+  },
+  "model": "catalogue.productcategory",
+  "pk": 37
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 46
+  },
+  "model": "catalogue.productcategory",
+  "pk": 38
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 47
+  },
+  "model": "catalogue.productcategory",
+  "pk": 39
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 48
+  },
+  "model": "catalogue.productcategory",
+  "pk": 40
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 49
+  },
+  "model": "catalogue.productcategory",
+  "pk": 41
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 50
+  },
+  "model": "catalogue.productcategory",
+  "pk": 42
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 51
+  },
+  "model": "catalogue.productcategory",
+  "pk": 43
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 52
+  },
+  "model": "catalogue.productcategory",
+  "pk": 44
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 53
+  },
+  "model": "catalogue.productcategory",
+  "pk": 45
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 54
+  },
+  "model": "catalogue.productcategory",
+  "pk": 46
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 55
+  },
+  "model": "catalogue.productcategory",
+  "pk": 47
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 56
+  },
+  "model": "catalogue.productcategory",
+  "pk": 48
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 57
+  },
+  "model": "catalogue.productcategory",
+  "pk": 49
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 58
+  },
+  "model": "catalogue.productcategory",
+  "pk": 50
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 59
+  },
+  "model": "catalogue.productcategory",
+  "pk": 51
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 60
+  },
+  "model": "catalogue.productcategory",
+  "pk": 52
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 61
+  },
+  "model": "catalogue.productcategory",
+  "pk": 53
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 62
+  },
+  "model": "catalogue.productcategory",
+  "pk": 54
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 63
+  },
+  "model": "catalogue.productcategory",
+  "pk": 55
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 64
+  },
+  "model": "catalogue.productcategory",
+  "pk": 56
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 65
+  },
+  "model": "catalogue.productcategory",
+  "pk": 57
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 66
+  },
+  "model": "catalogue.productcategory",
+  "pk": 58
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 67
+  },
+  "model": "catalogue.productcategory",
+  "pk": 59
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 68
+  },
+  "model": "catalogue.productcategory",
+  "pk": 60
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 69
+  },
+  "model": "catalogue.productcategory",
+  "pk": 61
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 70
+  },
+  "model": "catalogue.productcategory",
+  "pk": 62
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 71
+  },
+  "model": "catalogue.productcategory",
+  "pk": 63
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 72
+  },
+  "model": "catalogue.productcategory",
+  "pk": 64
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 73
+  },
+  "model": "catalogue.productcategory",
+  "pk": 65
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 74
+  },
+  "model": "catalogue.productcategory",
+  "pk": 66
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 75
+  },
+  "model": "catalogue.productcategory",
+  "pk": 67
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 76
+  },
+  "model": "catalogue.productcategory",
+  "pk": 68
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 77
+  },
+  "model": "catalogue.productcategory",
+  "pk": 69
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 78
+  },
+  "model": "catalogue.productcategory",
+  "pk": 70
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 79
+  },
+  "model": "catalogue.productcategory",
+  "pk": 71
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 80
+  },
+  "model": "catalogue.productcategory",
+  "pk": 72
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 81
+  },
+  "model": "catalogue.productcategory",
+  "pk": 73
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 82
+  },
+  "model": "catalogue.productcategory",
+  "pk": 74
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 83
+  },
+  "model": "catalogue.productcategory",
+  "pk": 75
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 84
+  },
+  "model": "catalogue.productcategory",
+  "pk": 76
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 85
+  },
+  "model": "catalogue.productcategory",
+  "pk": 77
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 86
+  },
+  "model": "catalogue.productcategory",
+  "pk": 78
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 87
+  },
+  "model": "catalogue.productcategory",
+  "pk": 79
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 88
+  },
+  "model": "catalogue.productcategory",
+  "pk": 80
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 89
+  },
+  "model": "catalogue.productcategory",
+  "pk": 81
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 90
+  },
+  "model": "catalogue.productcategory",
+  "pk": 82
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 91
+  },
+  "model": "catalogue.productcategory",
+  "pk": 83
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 92
+  },
+  "model": "catalogue.productcategory",
+  "pk": 84
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 93
+  },
+  "model": "catalogue.productcategory",
+  "pk": 85
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 94
+  },
+  "model": "catalogue.productcategory",
+  "pk": 86
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 95
+  },
+  "model": "catalogue.productcategory",
+  "pk": 87
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 96
+  },
+  "model": "catalogue.productcategory",
+  "pk": 88
+},
+{
+  "fields": {
+    "category": 4,
+    "product": 97
+  },
+  "model": "catalogue.productcategory",
+  "pk": 89
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 98
+  },
+  "model": "catalogue.productcategory",
+  "pk": 90
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 99
+  },
+  "model": "catalogue.productcategory",
+  "pk": 91
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 100
+  },
+  "model": "catalogue.productcategory",
+  "pk": 92
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 101
+  },
+  "model": "catalogue.productcategory",
+  "pk": 93
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 102
+  },
+  "model": "catalogue.productcategory",
+  "pk": 94
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 103
+  },
+  "model": "catalogue.productcategory",
+  "pk": 95
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 104
+  },
+  "model": "catalogue.productcategory",
+  "pk": 96
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 105
+  },
+  "model": "catalogue.productcategory",
+  "pk": 97
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 106
+  },
+  "model": "catalogue.productcategory",
+  "pk": 98
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 107
+  },
+  "model": "catalogue.productcategory",
+  "pk": 99
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 108
+  },
+  "model": "catalogue.productcategory",
+  "pk": 100
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 109
+  },
+  "model": "catalogue.productcategory",
+  "pk": 101
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 110
+  },
+  "model": "catalogue.productcategory",
+  "pk": 102
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 111
+  },
+  "model": "catalogue.productcategory",
+  "pk": 103
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 112
+  },
+  "model": "catalogue.productcategory",
+  "pk": 104
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 113
+  },
+  "model": "catalogue.productcategory",
+  "pk": 105
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 114
+  },
+  "model": "catalogue.productcategory",
+  "pk": 106
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 115
+  },
+  "model": "catalogue.productcategory",
+  "pk": 107
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 116
+  },
+  "model": "catalogue.productcategory",
+  "pk": 108
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 117
+  },
+  "model": "catalogue.productcategory",
+  "pk": 109
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 118
+  },
+  "model": "catalogue.productcategory",
+  "pk": 110
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 119
+  },
+  "model": "catalogue.productcategory",
+  "pk": 111
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 120
+  },
+  "model": "catalogue.productcategory",
+  "pk": 112
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 121
+  },
+  "model": "catalogue.productcategory",
+  "pk": 113
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 122
+  },
+  "model": "catalogue.productcategory",
+  "pk": 114
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 123
+  },
+  "model": "catalogue.productcategory",
+  "pk": 115
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 124
+  },
+  "model": "catalogue.productcategory",
+  "pk": 116
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 125
+  },
+  "model": "catalogue.productcategory",
+  "pk": 117
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 126
+  },
+  "model": "catalogue.productcategory",
+  "pk": 118
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 127
+  },
+  "model": "catalogue.productcategory",
+  "pk": 119
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 128
+  },
+  "model": "catalogue.productcategory",
+  "pk": 120
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 129
+  },
+  "model": "catalogue.productcategory",
+  "pk": 121
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 130
+  },
+  "model": "catalogue.productcategory",
+  "pk": 122
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 131
+  },
+  "model": "catalogue.productcategory",
+  "pk": 123
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 132
+  },
+  "model": "catalogue.productcategory",
+  "pk": 124
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 133
+  },
+  "model": "catalogue.productcategory",
+  "pk": 125
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 134
+  },
+  "model": "catalogue.productcategory",
+  "pk": 126
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 135
+  },
+  "model": "catalogue.productcategory",
+  "pk": 127
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 136
+  },
+  "model": "catalogue.productcategory",
+  "pk": 128
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 137
+  },
+  "model": "catalogue.productcategory",
+  "pk": 129
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 138
+  },
+  "model": "catalogue.productcategory",
+  "pk": 130
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 139
+  },
+  "model": "catalogue.productcategory",
+  "pk": 131
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 140
+  },
+  "model": "catalogue.productcategory",
+  "pk": 132
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 141
+  },
+  "model": "catalogue.productcategory",
+  "pk": 133
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 142
+  },
+  "model": "catalogue.productcategory",
+  "pk": 134
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 143
+  },
+  "model": "catalogue.productcategory",
+  "pk": 135
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 144
+  },
+  "model": "catalogue.productcategory",
+  "pk": 136
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 145
+  },
+  "model": "catalogue.productcategory",
+  "pk": 137
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 146
+  },
+  "model": "catalogue.productcategory",
+  "pk": 138
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 147
+  },
+  "model": "catalogue.productcategory",
+  "pk": 139
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 148
+  },
+  "model": "catalogue.productcategory",
+  "pk": 140
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 149
+  },
+  "model": "catalogue.productcategory",
+  "pk": 141
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 150
+  },
+  "model": "catalogue.productcategory",
+  "pk": 142
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 151
+  },
+  "model": "catalogue.productcategory",
+  "pk": 143
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 152
+  },
+  "model": "catalogue.productcategory",
+  "pk": 144
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 153
+  },
+  "model": "catalogue.productcategory",
+  "pk": 145
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 154
+  },
+  "model": "catalogue.productcategory",
+  "pk": 146
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 155
+  },
+  "model": "catalogue.productcategory",
+  "pk": 147
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 156
+  },
+  "model": "catalogue.productcategory",
+  "pk": 148
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 157
+  },
+  "model": "catalogue.productcategory",
+  "pk": 149
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 158
+  },
+  "model": "catalogue.productcategory",
+  "pk": 150
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 159
+  },
+  "model": "catalogue.productcategory",
+  "pk": 151
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 160
+  },
+  "model": "catalogue.productcategory",
+  "pk": 152
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 161
+  },
+  "model": "catalogue.productcategory",
+  "pk": 153
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 162
+  },
+  "model": "catalogue.productcategory",
+  "pk": 154
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 163
+  },
+  "model": "catalogue.productcategory",
+  "pk": 155
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 164
+  },
+  "model": "catalogue.productcategory",
+  "pk": 156
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 165
+  },
+  "model": "catalogue.productcategory",
+  "pk": 157
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 166
+  },
+  "model": "catalogue.productcategory",
+  "pk": 158
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 167
+  },
+  "model": "catalogue.productcategory",
+  "pk": 159
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 168
+  },
+  "model": "catalogue.productcategory",
+  "pk": 160
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 169
+  },
+  "model": "catalogue.productcategory",
+  "pk": 161
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 170
+  },
+  "model": "catalogue.productcategory",
+  "pk": 162
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 171
+  },
+  "model": "catalogue.productcategory",
+  "pk": 163
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 172
+  },
+  "model": "catalogue.productcategory",
+  "pk": 164
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 173
+  },
+  "model": "catalogue.productcategory",
+  "pk": 165
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 174
+  },
+  "model": "catalogue.productcategory",
+  "pk": 166
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 175
+  },
+  "model": "catalogue.productcategory",
+  "pk": 167
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 176
+  },
+  "model": "catalogue.productcategory",
+  "pk": 168
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 177
+  },
+  "model": "catalogue.productcategory",
+  "pk": 169
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 178
+  },
+  "model": "catalogue.productcategory",
+  "pk": 170
+},
+{
+  "fields": {
+    "category": 6,
+    "product": 179
+  },
+  "model": "catalogue.productcategory",
+  "pk": 171
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 71
+  },
+  "model": "catalogue.productcategory",
+  "pk": 172
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 180
+  },
+  "model": "catalogue.productcategory",
+  "pk": 173
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 181
+  },
+  "model": "catalogue.productcategory",
+  "pk": 174
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 182
+  },
+  "model": "catalogue.productcategory",
+  "pk": 175
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 183
+  },
+  "model": "catalogue.productcategory",
+  "pk": 176
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 184
+  },
+  "model": "catalogue.productcategory",
+  "pk": 177
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 185
+  },
+  "model": "catalogue.productcategory",
+  "pk": 178
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 186
+  },
+  "model": "catalogue.productcategory",
+  "pk": 179
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 187
+  },
+  "model": "catalogue.productcategory",
+  "pk": 180
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 188
+  },
+  "model": "catalogue.productcategory",
+  "pk": 181
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 189
+  },
+  "model": "catalogue.productcategory",
+  "pk": 182
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 190
+  },
+  "model": "catalogue.productcategory",
+  "pk": 183
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 29
+  },
+  "model": "catalogue.productcategory",
+  "pk": 184
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 191
+  },
+  "model": "catalogue.productcategory",
+  "pk": 185
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 192
+  },
+  "model": "catalogue.productcategory",
+  "pk": 186
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 193
+  },
+  "model": "catalogue.productcategory",
+  "pk": 187
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 194
+  },
+  "model": "catalogue.productcategory",
+  "pk": 188
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 195
+  },
+  "model": "catalogue.productcategory",
+  "pk": 189
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 196
+  },
+  "model": "catalogue.productcategory",
+  "pk": 190
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 197
+  },
+  "model": "catalogue.productcategory",
+  "pk": 191
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 198
+  },
+  "model": "catalogue.productcategory",
+  "pk": 192
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 12
+  },
+  "model": "catalogue.productcategory",
+  "pk": 193
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 199
+  },
+  "model": "catalogue.productcategory",
+  "pk": 194
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 200
+  },
+  "model": "catalogue.productcategory",
+  "pk": 195
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 201
+  },
+  "model": "catalogue.productcategory",
+  "pk": 196
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 202
+  },
+  "model": "catalogue.productcategory",
+  "pk": 197
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 203
+  },
+  "model": "catalogue.productcategory",
+  "pk": 198
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 204
+  },
+  "model": "catalogue.productcategory",
+  "pk": 199
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 205
+  },
+  "model": "catalogue.productcategory",
+  "pk": 200
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 206
+  },
+  "model": "catalogue.productcategory",
+  "pk": 201
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 207
+  },
+  "model": "catalogue.productcategory",
+  "pk": 202
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 208
+  },
+  "model": "catalogue.productcategory",
+  "pk": 203
+},
+{
+  "fields": {
+    "category": 7,
+    "product": 209
+  },
+  "model": "catalogue.productcategory",
+  "pk": 204
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Oscar T-shirt",
+    "date_updated": "2013-12-12T16:33:57.426Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-12T16:33:57.426Z",
+    "product_options": [],
+    "slug": "oscar-t-shirt",
+    "structure": "parent",
+    "product_class": 1
+  },
+  "model": "catalogue.product",
+  "pk": 1
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 1,
+    "title": "",
+    "date_updated": "2013-12-12T16:34:14.023Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-12T16:34:14.023Z",
+    "product_options": [],
+    "slug": "oscar-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 2
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 1,
+    "title": "",
+    "date_updated": "2013-12-12T16:34:32.170Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-12T16:34:32.170Z",
+    "product_options": [],
+    "slug": "oscar-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 3
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 1,
+    "title": "",
+    "date_updated": "2013-12-12T17:32:15.016Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-12T17:32:15.016Z",
+    "product_options": [],
+    "slug": "oscar-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 4
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "commandlinefu T-shirt",
+    "date_updated": "2013-12-13T11:34:21.810Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:34:21.810Z",
+    "product_options": [],
+    "slug": "commandlinefu-t-shirt",
+    "structure": "parent",
+    "product_class": 1
+  },
+  "model": "catalogue.product",
+  "pk": 5
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 5,
+    "title": "",
+    "date_updated": "2013-12-13T11:37:08.138Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:37:08.138Z",
+    "product_options": [],
+    "slug": "commandlinefu-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 6
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 5,
+    "title": "",
+    "date_updated": "2013-12-13T11:37:45.834Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:37:45.834Z",
+    "product_options": [],
+    "slug": "commandlinefu-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 7
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Django T-shirt",
+    "date_updated": "2013-12-13T11:38:15.107Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:38:15.107Z",
+    "product_options": [],
+    "slug": "django-t-shirt",
+    "structure": "parent",
+    "product_class": 1
+  },
+  "model": "catalogue.product",
+  "pk": 8
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 8,
+    "title": "",
+    "date_updated": "2013-12-13T11:38:49.769Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:38:49.769Z",
+    "product_options": [],
+    "slug": "django-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 9
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 8,
+    "title": "",
+    "date_updated": "2013-12-13T11:39:12.859Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:39:12.859Z",
+    "product_options": [],
+    "slug": "django-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 10
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": 8,
+    "title": "",
+    "date_updated": "2013-12-13T11:39:53.073Z",
+    "upc": "",
+    "is_discountable": true,
+    "date_created": "2013-12-13T11:39:53.073Z",
+    "product_options": [],
+    "slug": "django-t-shirt",
+    "structure": "child",
+    "product_class": null
+  },
+  "model": "catalogue.product",
+  "pk": 11
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Neal Stephenson is such a writer and Snow Crash is such a novel, weaving virtual reality, Sumerian myth, and just about everything in between with a cool, hip cybersensibility to bring us the gigathriller of the information age.",
+    "parent": null,
+    "title": "Snow Crash",
+    "date_updated": "2016-01-19T10:08:16.498Z",
+    "upc": "9780553380958",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.218Z",
+    "product_options": [],
+    "slug": "snow-crash",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 12
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Case, a burned out computer whiz, is asked to steal a security code that is locked in the most heavily guarded databank in the solar system",
+    "parent": null,
+    "title": "Neuromancer.",
+    "date_updated": "2016-01-19T10:08:14.348Z",
+    "upc": "9780441569595",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.348Z",
+    "product_options": [],
+    "slug": "neuromancer",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 13
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "With this extraordinary first volume in what promises to be an epoch-making masterpiece, Neal Stephenson hacks into the secret histories of nations and the private obsessions of men, decrypting with dazzling virtuosity the forces that ...",
+    "parent": null,
+    "title": "Cryptonomicon",
+    "date_updated": "2016-01-19T10:08:14.357Z",
+    "upc": "9780060512804",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.357Z",
+    "product_options": [],
+    "slug": "cryptonomicon",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 14
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Chronicles the journeys, notions, and acquaintances of reluctant galactic traveler Arthur Dent, accompanied by never-before-published material from the late author's archives as well as commentary by famous fans.",
+    "parent": null,
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "date_updated": "2016-01-19T10:08:14.366Z",
+    "upc": "9780345391803",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.366Z",
+    "product_options": [],
+    "slug": "the-hitchhikers-guide-to-the-galaxy",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 15
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A classic collection of interlocking tales chronicles the near-future development of the robot and features models that have the ability to read minds, experience human emotions, and take over the world--and, perhaps, render humankind ...",
+    "parent": null,
+    "title": "I, Robot",
+    "date_updated": "2016-01-19T10:08:14.376Z",
+    "upc": "9780553382563",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.376Z",
+    "product_options": [],
+    "slug": "i-robot",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 16
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The moon in 2075.",
+    "parent": null,
+    "title": "The Moon is a Harsh Mistress",
+    "date_updated": "2016-01-19T10:08:14.385Z",
+    "upc": "9780340837948",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.385Z",
+    "product_options": [],
+    "slug": "the-moon-is-a-harsh-mistress",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 17
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In a near-future run by thousands of autonomous computer programs that control the world's wireless networks, a dormant program activates in the wake of a legendary game designer's premature death and launches a sinister effort to dismantle ...",
+    "parent": null,
+    "title": "Daemon",
+    "date_updated": "2016-01-19T10:08:14.394Z",
+    "upc": "9780525951117",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.394Z",
+    "product_options": [],
+    "slug": "daemon",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 18
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The epic novel of human transformation that inspired the Stanley Kubrick film delves into the origin of the species, alien visitation, and the future of humankind. Reissue.",
+    "parent": null,
+    "title": "2001",
+    "date_updated": "2016-01-19T10:08:14.403Z",
+    "upc": "9780451457998",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.403Z",
+    "product_options": [],
+    "slug": "2001",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 19
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "2001",
+    "date_updated": "2016-01-19T10:08:14.411Z",
+    "upc": "9780905712826",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.411Z",
+    "product_options": [],
+    "slug": "2001",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 20
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Vonnegut\u2019s first novel spins the chilling tale of engineer Paul Proteus, who must find a way to live in a world dominated by a super computer and run completely by machines.",
+    "parent": null,
+    "title": "Player Piano",
+    "date_updated": "2016-01-19T10:08:14.420Z",
+    "upc": "9780385333788",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.420Z",
+    "product_options": [],
+    "slug": "player-piano",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 21
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In London of 1855, celebrated paleontologist Edward Mallory gets mixed up with Charles Babbage, the inventor of an advanced calculating machine run by his elite group of clackers",
+    "parent": null,
+    "title": "The Difference Engine",
+    "date_updated": "2016-01-19T10:08:14.429Z",
+    "upc": "9780553294613",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.429Z",
+    "product_options": [],
+    "slug": "the-difference-engine",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 22
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A novel of life in the nineties explores the world of computer giant Microsoft, viewing it as a microcosm of modern society Microserfs: a hilarious, fanatically detailed, and oddly moving book about a handful of misfit Microsoft employees ...",
+    "parent": null,
+    "title": "Microserfs",
+    "date_updated": "2016-01-19T10:08:14.438Z",
+    "upc": "9780060987046",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.438Z",
+    "product_options": [],
+    "slug": "microserfs",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 23
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "After the outbreak of a brutal civil war in the American Midwest stemming from the Daemon's civilization-rebuilding activities, reluctant Daemon operative Pete Sebeck leads a small band of enlightened humans in an effort to protect the new ...",
+    "parent": null,
+    "title": "Freedom",
+    "date_updated": "2016-01-19T10:08:14.447Z",
+    "upc": "9780525951575",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.447Z",
+    "product_options": [],
+    "slug": "freedom",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 24
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Lije Baley and R. Daneel Olivaw, a robot, investigate the murders of a famous robotocist, an isolated inhabitant of Solaria, and Jander Panell, an advanced robot",
+    "parent": null,
+    "title": "The Robot Novels",
+    "date_updated": "2016-01-19T10:08:14.456Z",
+    "upc": "9780345331199",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.456Z",
+    "product_options": [],
+    "slug": "the-robot-novels",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 25
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Presents the contemporary classic depicting the struggles of a United States airman attempting to survive the lunacy and depravity of a World War II airbase.",
+    "parent": null,
+    "title": "Catch-22",
+    "date_updated": "2016-01-19T10:08:14.465Z",
+    "upc": "9780684833392",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.465Z",
+    "product_options": [],
+    "slug": "catch-22",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 26
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Tron",
+    "date_updated": "2016-01-19T10:08:14.474Z",
+    "upc": "9780450055508",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.474Z",
+    "product_options": [],
+    "slug": "tron",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 27
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "ISBN: 9780307887436. SPEC, HUM Welcome to the year 2044, a grandly   dystopian future where kids like Wade live a largely virtual existence thanks to   global warming. Wade lives in a kind of ghetto area called the Stacks, for the   stacks of ...",
+    "parent": null,
+    "title": "Cart's Top 200 Adult Books for Young Adults: Two Decades in Review",
+    "date_updated": "2016-01-19T10:08:14.483Z",
+    "upc": "9780307887436",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.483Z",
+    "product_options": [],
+    "slug": "carts-top-200-adult-books-for-young-adults-two-decades-in-review",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 28
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Zit took the fore. \u201cWe seem to have gotten off to a bad start. We identified your son   as someone with a nonstandard public transit usage pattern,as part of a new   proactive enforcement program. When we spot people whose travels are unusual  , ...",
+    "parent": null,
+    "title": "Little Brother",
+    "date_updated": "2016-01-19T10:08:16.415Z",
+    "upc": "9780765319852",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.492Z",
+    "product_options": [],
+    "slug": "little-brother",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 29
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A first novel. By the author of The Rough Guide to the Universe. Reprint.",
+    "parent": null,
+    "title": "Old Man's War",
+    "date_updated": "2016-01-19T10:08:14.502Z",
+    "upc": "9780765348272",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.502Z",
+    "product_options": [],
+    "slug": "old-mans-war",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 30
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In the aftermath of his terrible war, Ender Wiggin disappeared, and a powerful voice arose: The Speaker for the Dead, who told the true story of the Bugger War.",
+    "parent": null,
+    "title": "Speaker for the Dead",
+    "date_updated": "2016-01-19T10:08:14.511Z",
+    "upc": "9781429963947",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.511Z",
+    "product_options": [],
+    "slug": "speaker-for-the-dead",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 31
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "He achieved his greatest success with A Passage to India (1924). The novel takes as its subject the relationship between East and West, seen through the lens of India in the later days of the British Raj.",
+    "parent": null,
+    "title": "The Machine Stops (Dodo Press)",
+    "date_updated": "2016-01-19T10:08:14.520Z",
+    "upc": "9781409903291",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.520Z",
+    "product_options": [],
+    "slug": "the-machine-stops-dodo-press",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 32
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In the future world of the Sprawl, an urban complex that extends from Boston to Houston, where a sentient computer database known as the Cyberspace matrix dominates humanity's fate, a corporate mercenary, awakening in a reconstructed body, ...",
+    "parent": null,
+    "title": "Count Zero",
+    "date_updated": "2016-01-19T10:08:14.529Z",
+    "upc": "9780441013678",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.529Z",
+    "product_options": [],
+    "slug": "count-zero",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 33
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The story of an engineer who creates a device to raise a girl capable of thinking for herself reveals what happens when a young girl of the poor underclass obtains the device.",
+    "parent": null,
+    "title": "The diamond age",
+    "date_updated": "2016-01-19T10:08:14.538Z",
+    "upc": "9780553380965",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.538Z",
+    "product_options": [],
+    "slug": "the-diamond-age",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 34
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "The Shockwave Riders",
+    "date_updated": "2016-01-19T10:08:14.547Z",
+    "upc": "9780345467171",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.547Z",
+    "product_options": [],
+    "slug": "the-shockwave-riders",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 35
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Two decades into the future humans are battling for their very survival when a powerful AI computer goes rogue, and all the machines on earth rebel against their human controllers.",
+    "parent": null,
+    "title": "Robopocalypse",
+    "date_updated": "2016-01-19T10:08:14.556Z",
+    "upc": "9780385533850",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.556Z",
+    "product_options": [],
+    "slug": "robopocalypse",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 36
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Baluja tells a story about something that could happen to any of us--if you're even modestly concerned about information privacy, this is an important book to read.",
+    "parent": null,
+    "title": "The Silicon Jungle",
+    "date_updated": "2016-01-19T10:08:14.565Z",
+    "upc": "9780691147543",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.565Z",
+    "product_options": [],
+    "slug": "the-silicon-jungle",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 37
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Stieg Larsson\u2019s Millennium Trilogy is now available in a complete hardcover set.",
+    "parent": null,
+    "title": "Stieg Larsson's Millennium Trilogy Bundle",
+    "date_updated": "2016-01-19T10:08:14.574Z",
+    "upc": "9780307594778",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.574Z",
+    "product_options": [],
+    "slug": "stieg-larssons-millennium-trilogy-bundle",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 38
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Hired to investigate a mysterious video collection that has been appearing on the Internet, market research consultant Cayce Pollard realizes that there is more to the assignment when her computer is hacked. Reprint.",
+    "parent": null,
+    "title": "Pattern Recognition",
+    "date_updated": "2016-01-19T10:08:14.583Z",
+    "upc": "9780425198681",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.583Z",
+    "product_options": [],
+    "slug": "pattern-recognition",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 39
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Receiving an implant to restore her sight, math genius Caitlin's life is changed in ways she could have never imagined when she suddenly begins to see a world beyond reality and an incredible realm that others cannot.",
+    "parent": null,
+    "title": "WWW",
+    "date_updated": "2016-01-19T10:08:14.592Z",
+    "upc": "9780441016792",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.592Z",
+    "product_options": [],
+    "slug": "www",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 40
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Delve deep into its provocative and compelling depths or float along at the surface and enjoy it in either case - this is a story you'll never forget!",
+    "parent": null,
+    "title": "A Terrace on the Tower of Babel",
+    "date_updated": "2016-01-19T10:08:14.602Z",
+    "upc": "9781450556569",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.602Z",
+    "product_options": [],
+    "slug": "a-terrace-on-the-tower-of-babel",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 41
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "DIGITAL FORTRESS Dan Brown El CORGI BOOKS DIGITAL FORTRESS A   CORGI BOOK: 9780552151696 First publication in Great.",
+    "parent": null,
+    "title": "Digital Fortress",
+    "date_updated": "2016-01-19T10:08:14.611Z",
+    "upc": "9780552151696",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.611Z",
+    "product_options": [],
+    "slug": "digital-fortress",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 42
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In a future where most people have computer implants in their heads to control their environment, Titus meets Violet, an unusual teenage girl who is in serious trouble.",
+    "parent": null,
+    "title": "Feed",
+    "date_updated": "2016-01-19T10:08:14.620Z",
+    "upc": "9780763622596",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.620Z",
+    "product_options": [],
+    "slug": "feed",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 43
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A fictional account of the desperate efforts to break the Nazi's Enigma code takes place in a British railway town, a struggle that becomes complicated by the pivotal disappearance of a beautiful cryptographer --The Orlando Sentinel As an ...",
+    "parent": null,
+    "title": "Enigma",
+    "date_updated": "2016-01-19T10:08:14.628Z",
+    "upc": "9780804115483",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.628Z",
+    "product_options": [],
+    "slug": "enigma",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 44
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The concerns and stylistic evolution of the famed futuristic writer are revealed in seven science fiction tales",
+    "parent": null,
+    "title": "I Have No Mouth",
+    "date_updated": "2016-01-19T10:08:14.639Z",
+    "upc": "9780441363957",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.639Z",
+    "product_options": [],
+    "slug": "i-have-no-mouth",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 45
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "When Harlie was one",
+    "date_updated": "2016-01-19T10:08:14.648Z",
+    "upc": "9780553264654",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.648Z",
+    "product_options": [],
+    "slug": "when-harlie-was-one",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 46
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The world's foremost authority on artificial intelligence is shot by terrorists, and it is up to a brilliant surgeon to reconstruct the scientist's brain using the research he pioneered",
+    "parent": null,
+    "title": "The Turing Option",
+    "date_updated": "2016-01-19T10:08:14.658Z",
+    "upc": "9780446364966",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.658Z",
+    "product_options": [],
+    "slug": "the-turing-option",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 47
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The protagonist, a Humanist-in-Residence at the center for Advanced Scientific Research, gets involved with a project to train a machine to pass a comprehensive exam in English literature--and with the degree candidate against whom the ...",
+    "parent": null,
+    "title": "Galatea 2.2",
+    "date_updated": "2016-01-19T10:08:14.667Z",
+    "upc": "9780312423131",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.667Z",
+    "product_options": [],
+    "slug": "galatea-22",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 48
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Sherry and Narcotics",
+    "date_updated": "2016-01-19T10:08:14.677Z",
+    "upc": "9780982792827",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.677Z",
+    "product_options": [],
+    "slug": "sherry-and-narcotics",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 49
+},
+{
+  "fields": {
+    "rating": null,
+    "description": ". . A virtuoso performance.\" --\"San Francisco\"\" Chronicle\" A literary joke plunges its creators into mortal danger in this captivating intellectual thriller by celebrated author Umberto Eco.",
+    "parent": null,
+    "title": "Foucault's Pendulum",
+    "date_updated": "2016-01-19T10:08:14.685Z",
+    "upc": "9780156032971",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.685Z",
+    "product_options": [],
+    "slug": "foucaults-pendulum",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 50
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A diplomat is sent to investigate the sudden disappearance of a star older than the universe, requiring him to steal the soul of the long-deceased starship captain who first encountered the star and bring her back to life. Reprint.",
+    "parent": null,
+    "title": "Excession",
+    "date_updated": "2016-01-19T10:08:14.694Z",
+    "upc": "9780553575378",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.694Z",
+    "product_options": [],
+    "slug": "excession",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 51
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "SLANT, Greg Bear\u00eds sequel to the popular QUEEN OF ANGELS, \u00ecshows that Bear is one of our very best, most innovative, speculative writers.\u00ee \u00f3New York Daily News \u00ecTense and fast-paced, beautifully written with complex, engaging ...",
+    "parent": null,
+    "title": "Slant",
+    "date_updated": "2016-01-19T10:08:14.704Z",
+    "upc": "9780812524826",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.704Z",
+    "product_options": [],
+    "slug": "slant",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 52
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Destination Void",
+    "date_updated": "2016-01-19T10:08:14.713Z",
+    "upc": "9780425074657",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.713Z",
+    "product_options": [],
+    "slug": "destination-void",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 53
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "The Jesus Incident",
+    "date_updated": "2016-01-19T10:08:14.723Z",
+    "upc": "9780425074671",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.723Z",
+    "product_options": [],
+    "slug": "the-jesus-incident",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 54
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "The Adding Machine",
+    "date_updated": "2016-01-19T10:08:14.732Z",
+    "upc": "9781425470890",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.732Z",
+    "product_options": [],
+    "slug": "the-adding-machine",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 55
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The lives of nine total strangers from nine different countries become intertwined in a strange series of circumstances.",
+    "parent": null,
+    "title": "Ghostwritten",
+    "date_updated": "2016-01-19T10:08:14.741Z",
+    "upc": "9780375724503",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.741Z",
+    "product_options": [],
+    "slug": "ghostwritten",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 56
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In a near-future western civilization that is threatened by corruptive practices within its technologically advanced information networks, a recovered Alzheimer's victim, his military son and daughter-in-law, and his middle school-age ...",
+    "parent": null,
+    "title": "Rainbows End",
+    "date_updated": "2016-01-19T10:08:14.750Z",
+    "upc": "9780812536362",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.750Z",
+    "product_options": [],
+    "slug": "rainbows-end",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 57
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Lonely, na\u00efve, and insecure, Indian computer programmer Arjun finds his life and security destroyed when he is fired and, in order to keep his job and the woman he loves, unleashes a mischievous and destructive virus that wreaks havoc on ...",
+    "parent": null,
+    "title": "Transmission",
+    "date_updated": "2016-01-19T10:08:14.759Z",
+    "upc": "9780452286511",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.759Z",
+    "product_options": [],
+    "slug": "transmission",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 58
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "When computer programming genius Brewster Billings invents a program that enables him to communicate with Lingo, his PC, he is ill-prepared for Lingo's growing hunger for power, as it taps into the country's most powerful computer networks",
+    "parent": null,
+    "title": "Lingo",
+    "date_updated": "2016-01-19T10:08:14.768Z",
+    "upc": "9780881848120",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.768Z",
+    "product_options": [],
+    "slug": "lingo",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 59
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A collector's edition brings together the three original, complete Star Wars novels in a single volume that includes Star Wars: A New Hope, Star Wars: The Empire Strikes Back, and Star Wars: Return of the Jedi.",
+    "parent": null,
+    "title": "Star Wars trilogy",
+    "date_updated": "2016-01-19T10:08:14.777Z",
+    "upc": "9780345475824",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.777Z",
+    "product_options": [],
+    "slug": "star-wars-trilogy",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 60
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "With Earth in the path of the rapacious Posleen, the peaceful and friendly races of the Galactic Federation offer their resources to help the backward Terrans--for a price.",
+    "parent": null,
+    "title": "A Hymn Before Battle",
+    "date_updated": "2016-01-19T10:08:14.786Z",
+    "upc": "9781416533214",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.786Z",
+    "product_options": [],
+    "slug": "a-hymn-before-battle",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 61
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "His characters are rich and engaging, and his prose is razor sharp. This is a wonderful book for any computer fanatic or any young person who enjoys a great read.",
+    "parent": null,
+    "title": "Hack",
+    "date_updated": "2016-01-19T10:08:14.795Z",
+    "upc": "9781419669972",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.795Z",
+    "product_options": [],
+    "slug": "hack",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 62
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Invented by Alice Lu in her Standford lab, \"edgar,\" an artificial intelligence program, grows into something far beyond Alice's--or anyone eles's--control, in a novel that explores the many implications of the technology we create",
+    "parent": null,
+    "title": "Exegesis",
+    "date_updated": "2016-01-19T10:08:14.804Z",
+    "upc": "9780375700514",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.804Z",
+    "product_options": [],
+    "slug": "exegesis",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 63
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "When a cyber terrorist seizes control of the Worldwide Information Network, computer crimes special agent Luanne Russell hunts down a second computer criminal on the run and challenges him to confront the terrorist.",
+    "parent": null,
+    "title": "Back Slash",
+    "date_updated": "2016-01-19T10:08:14.813Z",
+    "upc": "9781575660813",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.813Z",
+    "product_options": [],
+    "slug": "back-slash",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 64
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "With breathtaking insight, he utilizes vividly unfamiliar worlds to evoke the hauntingly and hilariously familiar in our society and ourselves. From the Trade Paperback edition.",
+    "parent": null,
+    "title": "Vulcan's Hammer",
+    "date_updated": "2016-01-19T10:08:14.822Z",
+    "upc": "9780307430083",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.822Z",
+    "product_options": [],
+    "slug": "vulcans-hammer",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 65
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "An \"innocent\" computer hacker suddenly finds himself on the most wanted list when his computer becomes the source of the worst computer virus in history--a virus he had nothing to do with. Original.",
+    "parent": null,
+    "title": "The Hacker and the Ants",
+    "date_updated": "2016-01-19T10:08:14.831Z",
+    "upc": "9781568582474",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.831Z",
+    "product_options": [],
+    "slug": "the-hacker-and-the-ants",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 66
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A collection of four science fiction works includes \"Software,\" where rebel robots bring immortality to their human creator by eating his brain, and \"Wetware,\" where robots begin to build their own race of humans.",
+    "parent": null,
+    "title": "The Ware Tetralogy",
+    "date_updated": "2016-01-19T10:08:14.841Z",
+    "upc": "9781607012115",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.840Z",
+    "product_options": [],
+    "slug": "the-ware-tetralogy",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 67
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Brilliant scientist Joe Messenger believes that people can be made to live for ever.",
+    "parent": null,
+    "title": "Host",
+    "date_updated": "2016-01-19T10:08:14.849Z",
+    "upc": "9780752837451",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.849Z",
+    "product_options": [],
+    "slug": "host",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 68
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Computer One",
+    "date_updated": "2016-01-19T10:08:14.858Z",
+    "upc": "9780714530338",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.858Z",
+    "product_options": [],
+    "slug": "computer-one",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 69
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Weapon",
+    "date_updated": "2016-01-19T10:08:14.867Z",
+    "upc": "9780593018958",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.867Z",
+    "product_options": [],
+    "slug": "weapon",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 70
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Updated with a new afterword, a true-life account of computer espionage tells of a year-long single-handed hunt for a computer thief known as \"Hunter,\" a hacker who stole sensitive security and military information from American computer ...",
+    "parent": null,
+    "title": "The Cuckoo's Egg",
+    "date_updated": "2016-01-19T10:08:16.289Z",
+    "upc": "9781416507789",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.876Z",
+    "product_options": [],
+    "slug": "the-cuckoos-egg",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 71
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "When Solo--the government's secret weapon--abandons his mission in Nicaragua and flies to New York City, the government sets out to destroy him. By the author of Weapon. Reprint.",
+    "parent": null,
+    "title": "Solo",
+    "date_updated": "2016-01-19T10:08:14.886Z",
+    "upc": "9780425137482",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.886Z",
+    "product_options": [],
+    "slug": "solo",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 72
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Must-read play looks to a future in which all workers are automatons. They revolt when they acquire souls (i.e., when they gain the ability to hate) and the resulting catastrophe make for a powerful theatrical experience.",
+    "parent": null,
+    "title": "R.U.R. (Rossum's Universal Robots)",
+    "date_updated": "2016-01-19T10:08:14.895Z",
+    "upc": "9780486419268",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.894Z",
+    "product_options": [],
+    "slug": "rur-rossums-universal-robots",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 73
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A classic science fiction novel features humanoids spreading throughout the galaxy, threatening to stifle all human endeavor, and the hidden group of rebels who try to stem the humanoid tide, if it is not already too late",
+    "parent": null,
+    "title": "The Humanoids",
+    "date_updated": "2016-01-19T10:08:14.903Z",
+    "upc": "9780786123322",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.903Z",
+    "product_options": [],
+    "slug": "the-humanoids",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 74
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The dreaded AI's have regrouped in an alternate universe and are preparing to launch their invincible fleet.",
+    "parent": null,
+    "title": "The Ai War",
+    "date_updated": "2016-01-19T10:08:14.912Z",
+    "upc": "9780812531930",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.912Z",
+    "product_options": [],
+    "slug": "the-ai-war",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 75
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Gurps Robots",
+    "date_updated": "2016-01-19T10:08:14.921Z",
+    "upc": "9781556342332",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.921Z",
+    "product_options": [],
+    "slug": "gurps-robots",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 76
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The story is about a robot who achieved consciousness at 3:34 pm and fell in love by 4:00 pm with Ellen, a brilliant and beautiful woman from the team that had programmed the robot.",
+    "parent": null,
+    "title": "Why Is Unit 142857 Sad?",
+    "date_updated": "2016-01-19T10:08:14.930Z",
+    "upc": "9781466207608",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.930Z",
+    "product_options": [],
+    "slug": "why-is-unit-142857-sad",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 77
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Chip fights for freedom from a mechanized, chemically controlled world which stifles nature and human individuality",
+    "parent": null,
+    "title": "This Perfect Day",
+    "date_updated": "2016-01-19T10:08:14.940Z",
+    "upc": "9780553290028",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.939Z",
+    "product_options": [],
+    "slug": "this-perfect-day",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 78
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Now available for the first time in America, March of the Machines is part history of robotics, part futurism.",
+    "parent": null,
+    "title": "March Of The Machines",
+    "date_updated": "2016-01-19T10:08:14.948Z",
+    "upc": "9780252072239",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.948Z",
+    "product_options": [],
+    "slug": "march-of-the-machines",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 79
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Multivac, the gigantic computer that controls the entire world and can even predict the probabilities of potential crimes before they happen, suddenly announces that someone is plotting to destroy Multivac.",
+    "parent": null,
+    "title": "All the Troubles of the World",
+    "date_updated": "2016-01-19T10:08:14.958Z",
+    "upc": "9780886822330",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.958Z",
+    "product_options": [],
+    "slug": "all-the-troubles-of-the-world",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 80
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Ten. The memo began: to: T. J. Heller, Director NCDC from: Sheldon Byers,   Security Liaison re: Inventory of Federally Funded Research in Paranormal   Phenomena It had been delivered to Heller's office in a sealed envelope marked '  Strictly ...",
+    "parent": null,
+    "title": "Bugs",
+    "date_updated": "2016-01-19T10:08:14.967Z",
+    "upc": "9780595297634",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.967Z",
+    "product_options": [],
+    "slug": "bugs",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 81
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Spackle. Dialogue. Beck studied for MCATs and drank beer. It was Italian beers   that week, so he had a Raffo or a Poretti. While he worked, he watched that   Grundig portable he'd rented with Grandma Beckett's latest check. He'd just   picked it ...",
+    "parent": null,
+    "title": "Love",
+    "date_updated": "2016-01-19T10:08:14.976Z",
+    "upc": "9780395860014",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.976Z",
+    "product_options": [],
+    "slug": "love",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 82
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "When scientist Clare Conway travels to Arizona for a conference, she finds herself on the run from a religious cult, ruthless computer spies, and the government, of all whom think she knows the secrets of the Quantum computer, a device that ...",
+    "parent": null,
+    "title": "Hard Questions",
+    "date_updated": "2016-01-19T10:08:14.985Z",
+    "upc": "9780575061897",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.985Z",
+    "product_options": [],
+    "slug": "hard-questions",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 83
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "The Two Faces of Tomorrow",
+    "date_updated": "2016-01-19T10:08:14.994Z",
+    "upc": "9780345275172",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:14.994Z",
+    "product_options": [],
+    "slug": "the-two-faces-of-tomorrow",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 84
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A Chelgrian emissary is sent to the Masaq' Orbital to bring Ziller, a famous but reclusive Chelgrian composer, home, on a mission that also has a top-secret purpose that will take him on a haunting odyssey into his own past and into ...",
+    "parent": null,
+    "title": "Look to Windward",
+    "date_updated": "2016-01-19T10:08:15.003Z",
+    "upc": "9780743421928",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.003Z",
+    "product_options": [],
+    "slug": "look-to-windward",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 85
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In twenty-first-century Los Angeles, three dissimilar sleuths--therapist Martin Burke, ambitious cop Mary Choy, and Richard Fettle, the killer's offbeat colleague--investigate diverse reasons why poet Emanuel Goldsmith would senselessly ...",
+    "parent": null,
+    "title": "Queen of Angels",
+    "date_updated": "2016-01-19T10:08:15.012Z",
+    "upc": "9780446361309",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.012Z",
+    "product_options": [],
+    "slug": "queen-of-angels",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 86
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Valentina, an artificial intelligence program come to life, and her creator, Celeste Hackett, a shy college student and computer genius, are menaced by an unscrupulous lawyer and two computer wizards hired to destroy Valentina",
+    "parent": null,
+    "title": "Valentina",
+    "date_updated": "2016-01-19T10:08:15.021Z",
+    "upc": "9780671559168",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.021Z",
+    "product_options": [],
+    "slug": "valentina",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 87
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "\"Richard Yates is named after real-life writer Richard Yates, but it has nothing to do with him.",
+    "parent": null,
+    "title": "Richard Yates",
+    "date_updated": "2016-01-19T10:08:15.030Z",
+    "upc": "9781935554158",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.030Z",
+    "product_options": [],
+    "slug": "richard-yates",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 88
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "The age of the pussyfoot",
+    "date_updated": "2016-01-19T10:08:15.039Z",
+    "upc": "9780552088046",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.039Z",
+    "product_options": [],
+    "slug": "the-age-of-the-pussyfoot",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 89
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Two roommates-one a scientist and the other a potential killer-are the subject of this futuristic novel. Also use: Shockwave Rider (1984).",
+    "parent": null,
+    "title": "Stand on Zanzibar",
+    "date_updated": "2016-01-19T10:08:15.048Z",
+    "upc": "9781857988369",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.048Z",
+    "product_options": [],
+    "slug": "stand-on-zanzibar",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 90
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Owen Deathstalker, last of his line, is a quiet man, a historian, remote from the stench of corruption and intrigue surrounding the Iron Throne at the heat of the galaxy-spanning, tyrannical Empire.And then, inexplicably, Deathstalker is ...",
+    "parent": null,
+    "title": "Deathstalker",
+    "date_updated": "2016-01-19T10:08:15.057Z",
+    "upc": "9780575601604",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.057Z",
+    "product_options": [],
+    "slug": "deathstalker",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 91
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Pilgrimage to Earth",
+    "date_updated": "2016-01-19T10:08:15.066Z",
+    "upc": "9781345004373",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.066Z",
+    "product_options": [],
+    "slug": "pilgrimage-to-earth",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 92
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Casimir Radon's first year at American Megaversity turns out completely different than he had imagined, with bizarre factions, cults, and feuds on campus, in a new edition of the satirical debut novel by the author of Cryptonomicon.",
+    "parent": null,
+    "title": "The Big U",
+    "date_updated": "2016-01-19T10:08:15.075Z",
+    "upc": "9780380816033",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.075Z",
+    "product_options": [],
+    "slug": "the-big-u",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 93
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Me",
+    "date_updated": "2016-01-19T10:08:15.084Z",
+    "upc": "9780671720735",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.084Z",
+    "product_options": [],
+    "slug": "me",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 94
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Men had built cities before, but never such a city as Diaspar; for millennia its protective dome shutout the creeping decay and danger of the world outside.",
+    "parent": null,
+    "title": "The City and the Stars",
+    "date_updated": "2016-01-19T10:08:15.093Z",
+    "upc": "9781857987638",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.093Z",
+    "product_options": [],
+    "slug": "the-city-and-the-stars",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 95
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Born to a rather beserk, if brilliant, programmer, a computer program has managed to escape its home computer, infiltrate others, and reach adolescence when the Pentagon finally realizes that something is upsetting their secret computer ...",
+    "parent": null,
+    "title": "Adolescence of P-1 (R)",
+    "date_updated": "2016-01-19T10:08:15.102Z",
+    "upc": "9780671559700",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.102Z",
+    "product_options": [],
+    "slug": "adolescence-of-p-1-r",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 96
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Computer whiz kid Rusty Harrington establishes a very special relationship with ARIEL, his father's top-secret artificial intelligence project, in a story of romance, industrial espionage, friendship, and state-of-the-art computer ...",
+    "parent": null,
+    "title": "Ariel",
+    "date_updated": "2016-01-19T10:08:15.111Z",
+    "upc": "9780812580860",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.111Z",
+    "product_options": [],
+    "slug": "ariel",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 97
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "As we said in the first preface to the first edition, C \"wears well as one's experience with it grows.\" With a decade more experience, we still feel that way. We hope that this book will help you to learn C and use it well.",
+    "parent": null,
+    "title": "The C Programming Language",
+    "date_updated": "2016-01-19T10:08:15.311Z",
+    "upc": "9780131103627",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.311Z",
+    "product_options": [],
+    "slug": "the-c-programming-language",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 98
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "... <id>urn:isbn:9780201616224</id><updated>20100114T14:20:24+0100</  updated> <title>ThePragmaticProgrammer</title><author><name>DavidThomas  </name></author> <author><name>Andrew Hunt</name></author> <category ...",
+    "parent": null,
+    "title": "Alfresco 3 Web Services",
+    "date_updated": "2016-01-19T10:08:15.330Z",
+    "upc": "9780201616224",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.330Z",
+    "product_options": [],
+    "slug": "alfresco-3-web-services",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 99
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "With Design Patterns as your guide, you will learn how these important patterns fit into the software development process, and how you can leverage them to solve your own design problems most efficiently.",
+    "parent": null,
+    "title": "Design Patterns",
+    "date_updated": "2016-01-19T10:08:15.340Z",
+    "upc": "9780201633610",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.340Z",
+    "product_options": [],
+    "slug": "design-patterns",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 100
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This long-awaited revision contains changesthroughout the text.There are new implementations of most of the major programming systems in thebook, including the interpreters and compilers, and the authors have incorporated many small ...",
+    "parent": null,
+    "title": "Structure and Interpretation of Computer Programs",
+    "date_updated": "2016-01-19T10:08:15.350Z",
+    "upc": "9780262510875",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.350Z",
+    "product_options": [],
+    "slug": "structure-and-interpretation-of-computer-programs",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 101
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "improving the design of existing code M. Fowler. Object Technology/Software   Engineering As the application of object technology\u2014 particularly the Java   programming language\u2014 has become commonplace, a new problem has   emerged to ...",
+    "parent": null,
+    "title": "Refactoring",
+    "date_updated": "2016-01-19T10:08:15.360Z",
+    "upc": "9780201485677",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.360Z",
+    "product_options": [],
+    "slug": "refactoring",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 102
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Check out the boxed set that brings together Volumes 1 - 4A in one elegant case, and offers the purchaser a $50 discount off the price of buying the four volumes individually.",
+    "parent": null,
+    "title": "The Art of Computer Programming: Sorting and searching",
+    "date_updated": "2016-01-19T10:08:15.370Z",
+    "upc": "9780201485417",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.370Z",
+    "product_options": [],
+    "slug": "the-art-of-computer-programming-sorting-and-searching",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 103
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "These essays draw from his experience as project manager for the IBM System/360 computer family and then for OS/360, its massive software system.",
+    "parent": null,
+    "title": "The mythical man-month",
+    "date_updated": "2016-01-19T10:08:15.378Z",
+    "upc": "9780201835953",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.378Z",
+    "product_options": [],
+    "slug": "the-mythical-man-month",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 104
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Features the best practices in the art and science of constructing software--topics include design, applying good techniques to construction, eliminating errors, planning, managing construction activities, and relating personal character to ...",
+    "parent": null,
+    "title": "Code Complete, Second Edition",
+    "date_updated": "2016-01-19T10:08:15.388Z",
+    "upc": "9780735619678",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.388Z",
+    "product_options": [],
+    "slug": "code-complete-second-edition",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 105
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Looks at the principles and clean code, includes case studies showcasing the practices of writing clean code, and contains a list of heuristics and \"smells\" accumulated from the process of writing clean code.",
+    "parent": null,
+    "title": "Clean Code",
+    "date_updated": "2016-01-19T10:08:15.397Z",
+    "upc": "9780132350884",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.397Z",
+    "product_options": [],
+    "slug": "clean-code",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 106
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "More than three-quarters of a million programmers have benefited from this book in all of its editions Written by Bjarne Stroustrup, the creator of C++, this is the world's most trusted and widely read book on C++.",
+    "parent": null,
+    "title": "The C++ programming language",
+    "date_updated": "2016-01-19T10:08:15.405Z",
+    "upc": "9780201700732",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.405Z",
+    "product_options": [],
+    "slug": "the-c-programming-language",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 107
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "If you develop sites or applications for the Web, this book is an absolute must.",
+    "parent": null,
+    "title": "JavaScript: The Good Parts",
+    "date_updated": "2016-01-19T10:08:15.415Z",
+    "upc": "9780596517748",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.415Z",
+    "product_options": [],
+    "slug": "javascript-the-good-parts",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 108
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This book provides the foundation for understanding the theory and pracitce of compilers.",
+    "parent": null,
+    "title": "Compilers, principles, techniques, and tools",
+    "date_updated": "2016-01-19T10:08:15.424Z",
+    "upc": "9780201100884",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.424Z",
+    "product_options": [],
+    "slug": "compilers-principles-techniques-and-tools",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 109
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "NEW-Over 200 references to books and papers published since the first edition. NEW-The Web site for this book contains PowerPoint slides, simulators, figures in various formats, and other teaching aids.",
+    "parent": null,
+    "title": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b",
+    "date_updated": "2016-01-19T10:08:15.452Z",
+    "upc": "9780130313584",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.452Z",
+    "product_options": [],
+    "slug": "sovremennye-operatsionnye-sistemy",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 110
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "All of this is available at: \"aima.cs.berkeley.edu\"",
+    "parent": null,
+    "title": "Artificial Intelligence",
+    "date_updated": "2016-01-19T10:08:15.464Z",
+    "upc": "9780137903955",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.464Z",
+    "product_options": [],
+    "slug": "artificial-intelligence",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 111
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Structure and Interpretation of Computer Programs has had a dramatic impact on computer science curricula over the past decade. This long-awaited revision contains changes throughout the text.",
+    "parent": null,
+    "title": "Structure and Interpretation of Computer Programs",
+    "date_updated": "2016-01-19T10:08:15.473Z",
+    "upc": "9780262011532",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.473Z",
+    "product_options": [],
+    "slug": "structure-and-interpretation-of-computer-programs",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 112
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Most of the book is devoted to discussions of individual tools, but throughout run the themes of combining programs and of using programs to build programs--emphasizing how they fit in the environment.",
+    "parent": null,
+    "title": "The UNIX programming environment",
+    "date_updated": "2016-01-19T10:08:15.482Z",
+    "upc": "9780139376818",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.482Z",
+    "product_options": [],
+    "slug": "the-unix-programming-environment",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 113
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "With this book, you will: Understand the differences between procedural and functional programming Learn the features of Haskell, and how to use it to develop useful programs Interact with filesystems, databases, and network services Write ...",
+    "parent": null,
+    "title": "Real World Haskell",
+    "date_updated": "2016-01-19T10:08:15.491Z",
+    "upc": "9780596514983",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.491Z",
+    "product_options": [],
+    "slug": "real-world-haskell",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 114
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Daniel Paul Friedman. True: as long as we use the names consistently, we are   just fine. And mk-length is a far more equal name than length. If we use a name   like mk-length, it is a constant reminder that the first argument to mk-length is ...",
+    "parent": null,
+    "title": "Little LISPer",
+    "date_updated": "2016-01-19T10:08:15.500Z",
+    "upc": "9780262560993",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.500Z",
+    "product_options": [],
+    "slug": "little-lisper",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 115
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Meanwhile,. back. at. the. PizzaStore. The design for the PizzaStore is really   shaping up: it's got a flexible framework and it does a good job of adhering to   design principles. Now, the key to Objectville Pizza's success has always been   fresh, ...",
+    "parent": null,
+    "title": "Head First Design Patterns",
+    "date_updated": "2016-01-19T10:08:15.509Z",
+    "upc": "9780596007126",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.509Z",
+    "product_options": [],
+    "slug": "head-first-design-patterns",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 116
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In this book, Michael Feathers offers start-to-finish strategies for working more effectively with large, untested legacy code bases.",
+    "parent": null,
+    "title": "Working Effectively With Legacy Code",
+    "date_updated": "2016-01-19T10:08:15.518Z",
+    "upc": "9780131177055",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.518Z",
+    "product_options": [],
+    "slug": "working-effectively-with-legacy-code",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 117
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "an introduction to programming and computing Matthias Felleisen. The   abstraction: Next we replace the contents of corresponding pairs of boxes with   new names and add these names to the parameter list. For example, if there are   three pairs ...",
+    "parent": null,
+    "title": "How to design programs",
+    "date_updated": "2016-01-19T10:08:15.528Z",
+    "upc": "9780262062183",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.528Z",
+    "product_options": [],
+    "slug": "how-to-design-programs",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 118
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Rob Pike. probably need to make changes to the main body of the code, and if   you edit a copy, before long you will have divergent versions. As much as   possible, there should only be a single source for a program; if you find you need   to ...",
+    "parent": null,
+    "title": "La pr\u00e1ctica de la programaci\u00f3n",
+    "date_updated": "2016-01-19T10:08:15.561Z",
+    "upc": "9780201615869",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.561Z",
+    "product_options": [],
+    "slug": "la-practica-de-la-programacion",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 119
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A tutorial and reference to the object-oriented programming language for beginning to experienced programmers, updated for version 1.8, describes the language's structure, syntax, and operation, and explains how to build applications.",
+    "parent": null,
+    "title": "Programming Ruby",
+    "date_updated": "2016-01-19T10:08:15.571Z",
+    "upc": "9780974514055",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.571Z",
+    "product_options": [],
+    "slug": "programming-ruby",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 120
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This edition of Learning Python puts you in the hands of two expert teachers, Mark Lutz and David Ascher, whose friendly, well-structured prose has guided many a programmer to proficiency with the language.",
+    "parent": null,
+    "title": "Learning Python",
+    "date_updated": "2016-01-19T10:08:15.580Z",
+    "upc": "9780596002817",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.580Z",
+    "product_options": [],
+    "slug": "learning-python",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 121
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Interprocess Communications.",
+    "parent": null,
+    "title": "UNIX Network Programming",
+    "date_updated": "2016-01-19T10:08:15.589Z",
+    "upc": "9780134900124",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.588Z",
+    "product_options": [],
+    "slug": "unix-network-programming",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 122
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Along the way, the book systematically addresses challenges that development teams encounter with TDD\u2014from integrating TDD into your processes to testing your most difficult features.",
+    "parent": null,
+    "title": "Growing Object-Oriented Software, Guided by Tests",
+    "date_updated": "2016-01-19T10:08:15.598Z",
+    "upc": "9780321503626",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.598Z",
+    "product_options": [],
+    "slug": "growing-object-oriented-software-guided-by-tests",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 123
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "By Example. The Addison-Wesley Signature Series provides readers with   practical and authoritative information on the latest trends in modern technology   for computer professionals. The series is based on one simple premise: great   books ...",
+    "parent": null,
+    "title": "Test-Driven Development",
+    "date_updated": "2016-01-19T10:08:15.607Z",
+    "upc": "9780321146533",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.607Z",
+    "product_options": [],
+    "slug": "test-driven-development",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 124
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Experienced practitioners Richardson and Gwaltney give inside information on the practicalities of managing a development project, whether from the aforesaid garage or from the largest cube farm in th.",
+    "parent": null,
+    "title": "Ship it!",
+    "date_updated": "2016-01-19T10:08:15.616Z",
+    "upc": "9780974514048",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.616Z",
+    "product_options": [],
+    "slug": "ship-it",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 125
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Consisting of three appendices, the summary half of the book gives source code for a selection of widely used Common Lisp operators, with definitions that offer a comprehensive explanation of the language and provide a rich source of real ...",
+    "parent": null,
+    "title": "ANSI Common Lisp",
+    "date_updated": "2016-01-19T10:08:15.625Z",
+    "upc": "9780133708752",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.625Z",
+    "product_options": [],
+    "slug": "ansi-common-lisp",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 126
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "On the other hand, the best managers also understand the job their employees   are trying to do. The same is true of pattern matching in Perl. The more   thoroughly you understand of how Perl goes about the task of matching any   particular ...",
+    "parent": null,
+    "title": "Programming Perl",
+    "date_updated": "2016-01-19T10:08:15.634Z",
+    "upc": "9780596000271",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.634Z",
+    "product_options": [],
+    "slug": "programming-perl",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 127
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Each chapter in the book consists of several \u201citems\u201d presented in the form of a short, standalone essay that provides specific advice, insight into Java platform subtleties, and outstanding code examples.",
+    "parent": null,
+    "title": "Effective Java",
+    "date_updated": "2016-01-19T10:08:15.643Z",
+    "upc": "9780321334879",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.643Z",
+    "product_options": [],
+    "slug": "effective-java",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 128
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A new edition of the essential text and professional reference, with substantial newmaterial on such topics as vEB trees, multithreaded algorithms, dynamic programming, and edge-baseflow.",
+    "parent": null,
+    "title": "Algorithms",
+    "date_updated": "2016-01-19T10:08:15.652Z",
+    "upc": "9780262033848",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.652Z",
+    "product_options": [],
+    "slug": "algorithms",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 129
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Provides information on creating Web-based applications.",
+    "parent": null,
+    "title": "Agile Web Development Whit Rails",
+    "date_updated": "2016-01-19T10:08:15.661Z",
+    "upc": "9780976694007",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.661Z",
+    "product_options": [],
+    "slug": "agile-web-development-whit-rails",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 130
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The definitive guide to writing tests for todays popular XUnit test automation frameworks, this guide by a renowned expert introduces more than 120 proven patterns for making tests easier to write, understand, and maintain.",
+    "parent": null,
+    "title": "Xunit Test Patterns",
+    "date_updated": "2016-01-19T10:08:15.670Z",
+    "upc": "9780131495050",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.670Z",
+    "product_options": [],
+    "slug": "xunit-test-patterns",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 131
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Taking on a global orientation to software programming, this practical guide offers scores of tested methods for using the C++ programming language with object-oriented design techniques for creating a variety of applications and solving a ...",
+    "parent": null,
+    "title": "Agile software development",
+    "date_updated": "2016-01-19T10:08:15.679Z",
+    "upc": "9780135974445",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.679Z",
+    "product_options": [],
+    "slug": "agile-software-development",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 132
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Shows how to write, debug, and run a Perl program, describes CGI scripting and data manipulation, and describes scalar values, basic operators, and associative arrays.",
+    "parent": null,
+    "title": "Learning Perl",
+    "date_updated": "2016-01-19T10:08:15.688Z",
+    "upc": "9780596101053",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.688Z",
+    "product_options": [],
+    "slug": "learning-perl",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 133
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This book includes lots of realistic examples, and I find it quite helpful when I have systems programming tasks to do.\" -- RS/Magazine \"This is the definitive reference book for any serious or professional UNIX systems programmer.",
+    "parent": null,
+    "title": "Advanced programming in the Unix environment",
+    "date_updated": "2016-01-19T10:08:15.697Z",
+    "upc": "9780201433074",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.697Z",
+    "product_options": [],
+    "slug": "advanced-programming-in-the-unix-environment",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 134
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This market leading text on computational theory provides a mathematical treatment of computer science theory designed around theorems and proofs.",
+    "parent": null,
+    "title": "Introduction To The Theory Of Computation",
+    "date_updated": "2016-01-19T10:08:15.706Z",
+    "upc": "9780534950972",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.706Z",
+    "product_options": [],
+    "slug": "introduction-to-the-theory-of-computation",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 135
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The Guerilla Guide to Interviewing Incentive Pay Considered Harmful Top Five (Wrong) Reasons You Don\u2019t Have Testers Human Task Switches Considered Harmful Things You Should Never Do, Part One The Iceberg Secret, Revealed The Law of Leaky ...",
+    "parent": null,
+    "title": "Joel on Software",
+    "date_updated": "2016-01-19T10:08:15.715Z",
+    "upc": "9781590593899",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.715Z",
+    "product_options": [],
+    "slug": "joel-on-software",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 136
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The Elements of Style is a classic work which is intended for use in English courses in which the practice of composition is combined with the study of literature.",
+    "parent": null,
+    "title": "Elements of Style",
+    "date_updated": "2016-01-19T10:08:15.724Z",
+    "upc": "9780205313426",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.724Z",
+    "product_options": [],
+    "slug": "elements-of-style",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 137
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The RSpec Book will introduce you to RSpec, Cucumber, and a number of other tools that make up the Ruby BDD family.",
+    "parent": null,
+    "title": "The Rspec Book",
+    "date_updated": "2016-01-19T10:08:15.733Z",
+    "upc": "9781934356371",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.733Z",
+    "product_options": [],
+    "slug": "the-rspec-book",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 138
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This is, quite simply, the definitive reference on the most important development in software technology for the last 20 years: object-orientation.A whole generation was introduced to object technology through the first edition of this book ...",
+    "parent": null,
+    "title": "Object-oriented software construction",
+    "date_updated": "2016-01-19T10:08:15.742Z",
+    "upc": "9780136291558",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.742Z",
+    "product_options": [],
+    "slug": "object-oriented-software-construction",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 139
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Written by the inventor of the language, this book is the defining text on the language that has become central to software development over the past five years.",
+    "parent": null,
+    "title": "The C++ programming language",
+    "date_updated": "2016-01-19T10:08:15.751Z",
+    "upc": "9780201889543",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.751Z",
+    "product_options": [],
+    "slug": "the-c-programming-language",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 140
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The second edition of Haskell: The Craft of Functional Programmingis essential reading for beginners to functional programming and newcomers to the Haskell programming language.",
+    "parent": null,
+    "title": "Haskell",
+    "date_updated": "2016-01-19T10:08:15.760Z",
+    "upc": "9780201342758",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.760Z",
+    "product_options": [],
+    "slug": "haskell",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 141
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "You'll find examples on nearly every page of this book that you can imitate and hack. Briefly, this book: Outlines many of the most important features of Ruby Demonstrates how to use conditionals, and how to manipulate strings in Ruby.",
+    "parent": null,
+    "title": "Learning Ruby",
+    "date_updated": "2016-01-19T10:08:15.769Z",
+    "upc": "9780596529864",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.769Z",
+    "product_options": [],
+    "slug": "learning-ruby",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 142
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The book is written in a clear and personable style with an extensive use of practical, complete examples. It also includes material on the latest developments in JavaScript and web scripting.",
+    "parent": null,
+    "title": "Sams Teach Yourself JavaScript in 24 Hours",
+    "date_updated": "2016-01-19T10:08:15.778Z",
+    "upc": "9780672328794",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.778Z",
+    "product_options": [],
+    "slug": "sams-teach-yourself-javascript-in-24-hours",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 143
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Explains how to access and create MySQL databases through PHP scripting, including authentication, network connectivity, session management, and content customization.",
+    "parent": null,
+    "title": "Php And Mysql Web Development",
+    "date_updated": "2016-01-19T10:08:15.787Z",
+    "upc": "9780672326721",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.787Z",
+    "product_options": [],
+    "slug": "php-and-mysql-web-development",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 144
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Demonstrates the features of the SQL-based relational database system, covering configuration, integration with third-party tools, and Web page generation as well as column types, operators, functions, and syntax.",
+    "parent": null,
+    "title": "Sams teach yourself MySQL in 24 hours",
+    "date_updated": "2016-01-19T10:08:15.796Z",
+    "upc": "9780672323492",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.796Z",
+    "product_options": [],
+    "slug": "sams-teach-yourself-mysql-in-24-hours",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 145
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This book describes real problems and solutions, not just language features. It covers the language and standard library together. \"This is a first-rate introductory book that takes a practical approach to solving problems using C++.",
+    "parent": null,
+    "title": "Accelerated C++",
+    "date_updated": "2016-01-19T10:08:15.806Z",
+    "upc": "9780201703535",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.806Z",
+    "product_options": [],
+    "slug": "accelerated-c",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 146
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "8108A-2 Don't miss the rest of the series! Vol. 1, Networking APIs: Sockets and XTI Vol. 3, Applications (forthcoming) The only guide to UNIX(r) interprocess communications you'll ever need!",
+    "parent": null,
+    "title": "UNIX Network Programming: Interprocess communications",
+    "date_updated": "2016-01-19T10:08:15.815Z",
+    "upc": "9780130810816",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.815Z",
+    "product_options": [],
+    "slug": "unix-network-programming-interprocess-communications",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 147
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "",
+    "parent": null,
+    "title": "Library Resources & Technical Services",
+    "date_updated": "2016-01-19T10:08:15.824Z",
+    "upc": "9780961392147",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.823Z",
+    "product_options": [],
+    "slug": "library-resources-technical-services",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 148
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Argues that the \"lean and mean\" corporate model of workaholism and downsizing is proving counterproductive, explaining how companies can implement downtime, promote flexibility, and foster creativity as part of realizing increased revenues.",
+    "parent": null,
+    "title": "Slack",
+    "date_updated": "2016-01-19T10:08:15.832Z",
+    "upc": "9780767907699",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.832Z",
+    "product_options": [],
+    "slug": "slack",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 149
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Readers will come away from this book understanding How to tell the difference between good and bad codeHow to write good code and how to transform bad code into good codeHow to create good names, good functions, good objects, and good ...",
+    "parent": null,
+    "title": "The Clean Coder",
+    "date_updated": "2016-01-19T10:08:15.841Z",
+    "upc": "9780137081073",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.841Z",
+    "product_options": [],
+    "slug": "the-clean-coder",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 150
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Provides information on ways to effectively design and release an application.",
+    "parent": null,
+    "title": "Release It!",
+    "date_updated": "2016-01-19T10:08:15.850Z",
+    "upc": "9780978739218",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.850Z",
+    "product_options": [],
+    "slug": "release-it",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 151
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Destined to become a classic, this book weaves a careful, patient explanation of assembly language instructions and programming methods with descriptions of the CPU and memory.",
+    "parent": null,
+    "title": "Assembly Language",
+    "date_updated": "2016-01-19T10:08:15.860Z",
+    "upc": "9780471578147",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.860Z",
+    "product_options": [],
+    "slug": "assembly-language",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 152
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "From start to finish, readers will see what it takes to develop a successful agile project.",
+    "parent": null,
+    "title": "Lean from the Trenches",
+    "date_updated": "2016-01-19T10:08:15.869Z",
+    "upc": "9781934356852",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.869Z",
+    "product_options": [],
+    "slug": "lean-from-the-trenches",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 153
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A simple C++ review book and your best guide to learning C++. This book covers the most seen topics in introductory programming courses such as conditions, loops, arrays, classes and pointers.",
+    "parent": null,
+    "title": "Reviewing C++",
+    "date_updated": "2016-01-19T10:08:15.879Z",
+    "upc": "9780557030798",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.878Z",
+    "product_options": [],
+    "slug": "reviewing-c",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 154
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "What this book will teach you This book will teach you all you need to know to start programming in Java. This latest edition of my series teaches Java with the Java 2 SDK 1.4; a free Software Development Kit for creating Java applications.",
+    "parent": null,
+    "title": "Beginning Java 2 SDK 1.4 edition",
+    "date_updated": "2016-01-19T10:08:15.888Z",
+    "upc": "9780764543654",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.887Z",
+    "product_options": [],
+    "slug": "beginning-java-2-sdk-14-edition",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 155
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Expanding on the highly successful formula of the first edition, the book now serves as the primary textbook of choice for any algorithm design course while maintaining its status as the premier practical reference guide to algorithms.NEW: ...",
+    "parent": null,
+    "title": "The Algorithm Design Manual",
+    "date_updated": "2016-01-19T10:08:15.896Z",
+    "upc": "9781848000698",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.896Z",
+    "product_options": [],
+    "slug": "the-algorithm-design-manual",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 156
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Looks at the principles of agile software development, covering such topics as project inception, estimation, iteration management, unit testing, refactoring, test-driven development, and continuous integration.",
+    "parent": null,
+    "title": "The Agile Samurai",
+    "date_updated": "2016-01-19T10:08:15.905Z",
+    "upc": "9781934356586",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.905Z",
+    "product_options": [],
+    "slug": "the-agile-samurai",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 157
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A new edition of a textbook that provides students with a deep, working understanding of the essential concepts of programming languages, completely revised, with significant new material.",
+    "parent": null,
+    "title": "Essentials of programming languages",
+    "date_updated": "2016-01-19T10:08:15.915Z",
+    "upc": "9780262062794",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.915Z",
+    "product_options": [],
+    "slug": "essentials-of-programming-languages",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 158
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Offers a tutorial explaining how to use Perl scripts and modules to create such CGI Web applications as data collection, shopping cart, server push, and e-mail forms.",
+    "parent": null,
+    "title": "Sams teach yourself Perl in 24 hours",
+    "date_updated": "2016-01-19T10:08:15.924Z",
+    "upc": "9780672327933",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.924Z",
+    "product_options": [],
+    "slug": "sams-teach-yourself-perl-in-24-hours",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 159
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This essential manual introduces the notion of \"Clean C\", writing C code that can be compiled as a C++ program, and incorporates the ISO C Amendment 1 (1994) which specifies new facilities for writing portable, international programs in C.",
+    "parent": null,
+    "title": "C",
+    "date_updated": "2016-01-19T10:08:15.933Z",
+    "upc": "9780133262247",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.933Z",
+    "product_options": [],
+    "slug": "c",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 160
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The generic algorithms chapter with so many more examples than in the previous edition is delightful! The examples work cumulatively to give a sense of comfortable competence with the algorithms, containers, and iterators used.",
+    "parent": null,
+    "title": "STL tutorial and reference guide",
+    "date_updated": "2016-01-19T10:08:15.942Z",
+    "upc": "9780201379235",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.942Z",
+    "product_options": [],
+    "slug": "stl-tutorial-and-reference-guide",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 161
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Bridging the Communication Gap is a book about improving communication between customers, business analysts, developers and testers on software projects, especially by using specification by example and agile acceptance testing.",
+    "parent": null,
+    "title": "Bridging the Communication Gap",
+    "date_updated": "2016-01-19T10:08:15.951Z",
+    "upc": "9780955683619",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.951Z",
+    "product_options": [],
+    "slug": "bridging-the-communication-gap",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 162
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "\"This remarkable book combines practical advice, ready-to-use techniques, anda deep understanding of why this is the right way to develop software. I haveseen software teams transformed by the ideas in this book.",
+    "parent": null,
+    "title": "Implementing Lean Software Development",
+    "date_updated": "2016-01-19T10:08:15.960Z",
+    "upc": "9780321437389",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.960Z",
+    "product_options": [],
+    "slug": "implementing-lean-software-development",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 163
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Introducing readers to different ways of ordering all of the projects they are working on, \"Manage Your Project Portfolio\" helps to define a team's, group's, or department's mission--whether the projects include of software or hardware ...",
+    "parent": null,
+    "title": "Manage Your Project Portfolio",
+    "date_updated": "2016-01-19T10:08:15.969Z",
+    "upc": "9781934356296",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.969Z",
+    "product_options": [],
+    "slug": "manage-your-project-portfolio",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 164
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The co-authors reveal 48 patterns of behavior associated with successful change in knowledge-driven organizations, and show readers exactly how to use them in their own organization.",
+    "parent": null,
+    "title": "Fearless Change",
+    "date_updated": "2016-01-19T10:08:15.978Z",
+    "upc": "9780201741575",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.978Z",
+    "product_options": [],
+    "slug": "fearless-change",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 165
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This book aims to give you a head start by providing a detailed down-to-earth account of how one Swedish company implemented Scrum and XP with a team of approximately 40 people and how they continuously improved their process over a year's ...",
+    "parent": null,
+    "title": "Scrum and XP from the Trenches",
+    "date_updated": "2016-01-19T10:08:15.987Z",
+    "upc": "9781430322641",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.987Z",
+    "product_options": [],
+    "slug": "scrum-and-xp-from-the-trenches",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 166
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "You may love XP, or you may hate it, but \"Extreme Programming Explained\" will force you to take a fresh look at how you develop software. 0201616416B04062001",
+    "parent": null,
+    "title": "Extreme Programming Explained.",
+    "date_updated": "2016-01-19T10:08:15.996Z",
+    "upc": "9780321278654",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:15.996Z",
+    "product_options": [],
+    "slug": "extreme-programming-explained",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 167
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The tools and recipes in this book will help readers uncover and solve hidden and not-so-hidden problems with their technology and methodology. It offers tips to fix the problems faced on a software development project on an ongoing basis.",
+    "parent": null,
+    "title": "Agile Retrospective",
+    "date_updated": "2016-01-19T10:08:16.005Z",
+    "upc": "9780977616640",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.005Z",
+    "product_options": [],
+    "slug": "agile-retrospective",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 168
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Explains how to transform ideas into action, offering a step-by-step approach to launching great products, services, and companies and demonstrating how managers can unleash a creative approach to business at established companies.",
+    "parent": null,
+    "title": "The Art Of The Start",
+    "date_updated": "2016-01-19T10:08:16.014Z",
+    "upc": "9781591840565",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.014Z",
+    "product_options": [],
+    "slug": "the-art-of-the-start",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 169
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Mr. Rogo, a plant manager, must improve his factory's efficiency or face its closing in just three months.",
+    "parent": null,
+    "title": "The Goal",
+    "date_updated": "2016-01-19T10:08:16.023Z",
+    "upc": "9780884271789",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.023Z",
+    "product_options": [],
+    "slug": "the-goal",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 170
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The lawnmower problem. The bumblebee problem. The increasing benefits of ADFs as problems are scaled up. Finding an impulse response function. Artificial ant on the San Mateo trail. Obstacle-avoiding robot. The minesweeper problem.",
+    "parent": null,
+    "title": "Genetic Programming",
+    "date_updated": "2016-01-19T10:08:16.032Z",
+    "upc": "9780262111898",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.032Z",
+    "product_options": [],
+    "slug": "genetic-programming",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 171
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A Language and Philosophy for Solving Problems Leo Brodie. THREE   Preliminary Design/ Decomposition Assuming you have some idea of what your   program should. Justine Time.",
+    "parent": null,
+    "title": "Thinking Forth",
+    "date_updated": "2016-01-19T10:08:16.041Z",
+    "upc": "9780976458708",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.041Z",
+    "product_options": [],
+    "slug": "thinking-forth",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 172
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "With the 97 short and extremely useful tips for programmers in this book, you'll expand your skills by adopting new approaches to old problems, learning appropriate best practices, and honing your craft through sound advice.",
+    "parent": null,
+    "title": "97 Things Every Programmer Should Know",
+    "date_updated": "2016-01-19T10:08:16.050Z",
+    "upc": "9780596809485",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.050Z",
+    "product_options": [],
+    "slug": "97-things-every-programmer-should-know",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 173
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Describes a method of effectively specifying, testing, and delivering software, covering such topics as documentation, process patterns, and automation, along with case studies from a variety of firms.",
+    "parent": null,
+    "title": "Specification by Example",
+    "date_updated": "2016-01-19T10:08:16.059Z",
+    "upc": "9781617290084",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.059Z",
+    "product_options": [],
+    "slug": "specification-by-example",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 174
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This book introduces the theory and practice of pattern-directed refactorings: sequences of low-level refactorings that allow designers to safely move designs to, towards, or away from pattern implementations.",
+    "parent": null,
+    "title": "Refactoring to patterns",
+    "date_updated": "2016-01-19T10:08:16.068Z",
+    "upc": "9780321213358",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.068Z",
+    "product_options": [],
+    "slug": "refactoring-to-patterns",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 175
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Chapter. 19. Perpetual. Learning. Software developers need to have a good   memory, be very good at learning, and be great at forgetting. Forgetting is the   most important ability because it is the key to perpetual learning. Learning is   important ...",
+    "parent": null,
+    "title": "Software craftsmanship",
+    "date_updated": "2016-01-19T10:08:16.077Z",
+    "upc": "9780201733860",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.077Z",
+    "product_options": [],
+    "slug": "software-craftsmanship",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 176
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A simple Java review book and your best guide to learning Java programming. This book covers the most seen topics in introductory programming courses such as conditions, loops, arrays, classes and inheritance.",
+    "parent": null,
+    "title": "Reviewing Java",
+    "date_updated": "2016-01-19T10:08:16.087Z",
+    "upc": "9780557043552",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.087Z",
+    "product_options": [],
+    "slug": "reviewing-java",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 177
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "number formatting Number formatting InJava, formatting numbers and dates   doesn't have to be coupled with I/O. Think about it. One of the most typical ways   to display numbers to a user is through a GUI. You put Strings into a scrolling text ...",
+    "parent": null,
+    "title": "\u6df1\u5165\u6d45\u51fa Java",
+    "date_updated": "2016-01-19T10:08:16.106Z",
+    "upc": "9780596009205",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.106Z",
+    "product_options": [],
+    "slug": "shen-ru-qian-chu-java",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 178
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Deep C Secrets Peter van der Linden. #include <setjmp.h> banana ( ) { printf ( \"   in banana ( ) n\" ) ; longjmp (buf, 1) ; /*NOTREACHED*/ printf ( \"you' 11 never see   this, because I longjmp'd\" ) ; main ( ) if (set jmp(buf ) ) printf (\"back in mainn\"); ...",
+    "parent": null,
+    "title": "Expert C Programming",
+    "date_updated": "2016-01-19T10:08:16.116Z",
+    "upc": "9780131774292",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.116Z",
+    "product_options": [],
+    "slug": "expert-c-programming",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 179
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Ghost in the Wires is a thrilling true story of intrigue, suspense, and unbelievable escape, and a portrait of a visionary whose creativity, skills, and persistence forced the authorities to rethink the way they pursued him, inspiring ...",
+    "parent": null,
+    "title": "Ghost in the Wires",
+    "date_updated": "2016-01-19T10:08:16.309Z",
+    "upc": "9780316037709",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.309Z",
+    "product_options": [],
+    "slug": "ghost-in-the-wires",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 180
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Mitnick's reputation within the hacker community gave him unique credibility with the perpetrators of these crimes, who freely shared their stories with him-and whose exploits Mitnick now reveals in detail for the first time, including: A ...",
+    "parent": null,
+    "title": "The Art of Intrusion",
+    "date_updated": "2016-01-19T10:08:16.320Z",
+    "upc": "9780471782667",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.320Z",
+    "product_options": [],
+    "slug": "the-art-of-intrusion",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 181
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "the art of exploitation. More No-Nonsense Books from NO STARCH PRESS   WRITE GREAT CODE Understanding the Machine by randall hyde Today's   programmers are often narrowly trained because the industry moves too fast.   This book ...",
+    "parent": null,
+    "title": "Hacking",
+    "date_updated": "2016-01-19T10:08:16.329Z",
+    "upc": "9781593270070",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.329Z",
+    "product_options": [],
+    "slug": "hacking",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 182
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A journalist investigates the past, present, and future of computer crimes, as he attends a hacker convention, documents the extent of the computer crimes, and presents intriguing facts about hackers and their misdoings. Reprint.",
+    "parent": null,
+    "title": "The Hacker Crackdown",
+    "date_updated": "2016-01-19T10:08:16.341Z",
+    "upc": "9780553563702",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.341Z",
+    "product_options": [],
+    "slug": "the-hacker-crackdown",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 183
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Interviews with the unconventional computer geniuses who were responsible for the computer revolution reveal the inside story and the shared ideals that motivated them. Reprint.",
+    "parent": null,
+    "title": "Hackers",
+    "date_updated": "2016-01-19T10:08:16.352Z",
+    "upc": "9780141000510",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.352Z",
+    "product_options": [],
+    "slug": "hackers",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 184
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "The author examines issues such as the rightness of web-based applications, the programming language renaissance, spam filtering, the Open Source Movement, Internet startups and more.",
+    "parent": null,
+    "title": "Hackers & painters",
+    "date_updated": "2016-01-19T10:08:16.361Z",
+    "upc": "9780596006624",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.361Z",
+    "product_options": [],
+    "slug": "hackers-painters",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 185
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Documents how a troubled young computer hacker seized control of a massive international computer fraud network in 2006, tracing the efforts of Non-FBI and Secret Service agents as well as an undercover operator to locate and arrest him.",
+    "parent": null,
+    "title": "Kingpin",
+    "date_updated": "2016-01-19T10:08:16.370Z",
+    "upc": "9780307588685",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.370Z",
+    "product_options": [],
+    "slug": "kingpin",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 186
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "But in his own eyes, Mitnick was simply a small-time con artist with an incredible memory [and] a knack for social engineering\u2026 This is Mitnick\u2019s account, complete with advice for how to protect yourself from similar attacks.",
+    "parent": null,
+    "title": "The Art of Deception",
+    "date_updated": "2016-01-19T10:08:16.379Z",
+    "upc": "9780764542800",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.379Z",
+    "product_options": [],
+    "slug": "the-art-of-deception",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 187
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Should be required reading for anyone with a server or a network to secure.\" Bill Machrone, \"PC Magazine,\" \"With every edition this book keeps getting better and better.",
+    "parent": null,
+    "title": "Hacking Exposed Non-Fifth Edition",
+    "date_updated": "2016-01-19T10:08:16.388Z",
+    "upc": "9780072260816",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.388Z",
+    "product_options": [],
+    "slug": "hacking-exposed-non-fifth-edition",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 188
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Chronicles the cyberspace battle between rival gangs of hackers in Texas and New York, detailing the groups' exploits and discussing the legal and ethical implications of new computer technology",
+    "parent": null,
+    "title": "The Masters of Deception",
+    "date_updated": "2016-01-19T10:08:16.397Z",
+    "upc": "9780060926946",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.397Z",
+    "product_options": [],
+    "slug": "the-masters-of-deception",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 189
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Argues that the development of Linux by thousands of programmers, in a coordinated effort without centralized management signals unprecedented power shifts in the computer industry.",
+    "parent": null,
+    "title": "The Cathedral & the Bazaar",
+    "date_updated": "2016-01-19T10:08:16.406Z",
+    "upc": "9780596001087",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.406Z",
+    "product_options": [],
+    "slug": "the-cathedral-the-bazaar",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 190
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "... Published by Wiley Publishing, Inc.,Indianapolis, Indiana Published   simultaneously inCanada ISBN: 9780470639535 ISBN: 9781118028018 (ebk)   ISBN: 9781118029718(ebk) ISBN: 9781118029749 (ebk) Manufactured in the   United States ...",
+    "parent": null,
+    "title": "Social Engineering",
+    "date_updated": "2016-01-19T10:08:16.425Z",
+    "upc": "9780470639535",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.425Z",
+    "product_options": [],
+    "slug": "social-engineering",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 191
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "WE ARE ANONYMOUS delves deep into the internet's underbelly to tell the incredible full story of the global cyber insurgency movement, and its implications for the future of computer security.",
+    "parent": null,
+    "title": "We Are Anonymous",
+    "date_updated": "2016-01-19T10:08:16.435Z",
+    "upc": "9780316213547",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.435Z",
+    "product_options": [],
+    "slug": "we-are-anonymous",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 192
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "\"The Metasploit Non-Framework makes discovering, exploiting, and sharing vulnerabilities quick and relatively painless.",
+    "parent": null,
+    "title": "Metasploit",
+    "date_updated": "2016-01-19T10:08:16.443Z",
+    "upc": "9781593272883",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.443Z",
+    "product_options": [],
+    "slug": "metasploit",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 193
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Non-Forty years after the disappearance of Harriet Vanger from the secluded island owned and inhabited by the powerful Vanger family, her octogenarian uncle hires journalist Mikael Blomqvist and Lisbeth Salander, an unconventional young hacker, ...",
+    "parent": null,
+    "title": "The Girl with the Dragon Tattoo",
+    "date_updated": "2016-01-19T10:08:16.452Z",
+    "upc": "9780307269751",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.452Z",
+    "product_options": [],
+    "slug": "the-girl-with-the-dragon-tattoo",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 194
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "In a fresh approach to work, the authors explain how professionals can: use their own tools and technologies instead of what the company mandates; cut through red tape; circumvent almost any company rule to work smarter, not harder; and ...",
+    "parent": null,
+    "title": "Hacking Work",
+    "date_updated": "2016-01-19T10:08:16.462Z",
+    "upc": "9781591843573",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.462Z",
+    "product_options": [],
+    "slug": "hacking-work",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 195
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "A Non-Field Guide To Passive Reconnaissance And Indirect Attacks Michal Zalewski.   have no way of telling what is stored in a cookie. A server can choose to assign a   unique identifier to a client using the Set-Cookie header and then read it back ...",
+    "parent": null,
+    "title": "Silence On The Wire",
+    "date_updated": "2016-01-19T10:08:16.471Z",
+    "upc": "9781593270469",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.471Z",
+    "product_options": [],
+    "slug": "silence-on-the-wire",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 196
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "*Author Johnny Long, the authority on Google hacking, will be speaking about \"Google Hacking\" at the Black Hat 2004 Briefing.",
+    "parent": null,
+    "title": "Google Hacking",
+    "date_updated": "2016-01-19T10:08:16.480Z",
+    "upc": "9781931836364",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.480Z",
+    "product_options": [],
+    "slug": "google-hacking",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 197
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "\"This is the first book that promises to tell the deep, dark secrets of computer arithmetic, and it delivers in spades.",
+    "parent": null,
+    "title": "Hacker's Delight",
+    "date_updated": "2016-01-19T10:08:16.489Z",
+    "upc": "9780201914658",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.489Z",
+    "product_options": [],
+    "slug": "hackers-delight",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 198
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "While recovering in the hospital, Lisbeth Salander enlists the aid of journalist Mikael Blomkvist to prove her innocent of three murders and identify the corrupt politicians who have allowed her to suffer, and, on her own, Lisbeth plots ...",
+    "parent": null,
+    "title": "The Girl Who Kicked the Hornet's Nest",
+    "date_updated": "2016-01-19T10:08:16.509Z",
+    "upc": "9780307269997",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.509Z",
+    "product_options": [],
+    "slug": "the-girl-who-kicked-the-hornets-nest",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 199
+},
+{
+  "fields": {
+    "rating": null,
+    "description": ". . . The book the National Security Agency wanted never to be published. . . .\" -Wired Magazine \". . .monumental . . . fascinating . . . comprehensive . . . the definitive work on cryptography for computer programmers . . .",
+    "parent": null,
+    "title": "Applied cryptography",
+    "date_updated": "2016-01-19T10:08:16.517Z",
+    "upc": "9780471128458",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.517Z",
+    "product_options": [],
+    "slug": "applied-cryptography",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 200
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Using the exploits of three international hackers, Cyberpunk provides a fascinating tour of a bizarre subculture populated by outlaws who penetrate even the most sensitive computer networks and wreak havoc on the information they find -- ...",
+    "parent": null,
+    "title": "Cyberpunk",
+    "date_updated": "2016-01-19T10:08:16.526Z",
+    "upc": "9780684818627",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.526Z",
+    "product_options": [],
+    "slug": "cyberpunk",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 201
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "That's exactly what this book shows you--how to deconstruct software in a way that reveals design and implementation details, sometimes even source code. Why? Because reversing reveals weak spots, so you can target your security efforts.",
+    "parent": null,
+    "title": "Reversing",
+    "date_updated": "2016-01-19T10:08:16.536Z",
+    "upc": "9780764574818",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.536Z",
+    "product_options": [],
+    "slug": "reversing",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 202
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Lisbeth Salander is a wanted woman. Two Millennium journalists about to expose the truth about sex trafficking in Sweden are murdered, and Salander's prints are on the weapon.",
+    "parent": null,
+    "title": "The Girl Who Played with Non-Fire",
+    "date_updated": "2016-01-19T10:08:16.545Z",
+    "upc": "9780307269980",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.545Z",
+    "product_options": [],
+    "slug": "the-girl-who-played-with-non-fire",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 203
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Malicious hackers are dedicated to bringing about mayhem and destruction--this book will teach you how to identify and stop them.",
+    "parent": null,
+    "title": "Gray Hat Hacking",
+    "date_updated": "2016-01-19T10:08:16.553Z",
+    "upc": "9780072257090",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.553Z",
+    "product_options": [],
+    "slug": "gray-hat-hacking",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 204
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Cram101 Textbook Outlines gives all of the outlines, highlights, notes for your textbook with optional online practice tests. Only Cram101 Outlines are Textbook Specific. Cram101 is NOT the Textbook. Accompanys: 9780131481046 .",
+    "parent": null,
+    "title": "Studyguide for Counter Hack Reloaded",
+    "date_updated": "2016-01-19T10:08:16.563Z",
+    "upc": "9780131481046",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.563Z",
+    "product_options": [],
+    "slug": "studyguide-for-counter-hack-reloaded",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 205
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "By reading this book, practicing, and applying the methods introduced, you can successfully master picking most modern locks. This book makes it easy and gives you the edge to quickly learn and start picking locks today.",
+    "parent": null,
+    "title": "Visual Guide to Lock Picking",
+    "date_updated": "2016-01-19T10:08:16.572Z",
+    "upc": "9780970978813",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.572Z",
+    "product_options": [],
+    "slug": "visual-guide-to-lock-picking",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 206
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "Reflections on the Craft of Programming Peter Seibel. and get working first that   will help you to do the next step and build stuff up from there. In these cases, it   was a matter of getting outside the box. That's a way of asserting that you've ...",
+    "parent": null,
+    "title": "Coders at Work",
+    "date_updated": "2016-01-19T10:08:16.580Z",
+    "upc": "9781430219484",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.580Z",
+    "product_options": [],
+    "slug": "coders-at-work",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 207
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "This is an invaluable resource for any IT professional who works with wireless technology.",
+    "parent": null,
+    "title": "Hacking Exposed Wireless",
+    "date_updated": "2016-01-19T10:08:16.589Z",
+    "upc": "9780072262582",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.589Z",
+    "product_options": [],
+    "slug": "hacking-exposed-wireless",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 208
+},
+{
+  "fields": {
+    "rating": null,
+    "description": "\" The Shellcoder's Handbook shows you how to: Non-Find out where security holes come from and how to close them so they never occur againPinpoint vulnerabilities in popular operating systems (including Windows(R), Linux(R), and SolarisTM) and ...",
+    "parent": null,
+    "title": "The shellcoder's handbook",
+    "date_updated": "2016-01-19T10:08:16.598Z",
+    "upc": "9780764544682",
+    "is_discountable": true,
+    "date_created": "2016-01-19T10:08:16.598Z",
+    "product_options": [],
+    "slug": "the-shellcoders-handbook",
+    "structure": "standalone",
+    "product_class": 2
+  },
+  "model": "catalogue.product",
+  "pk": 209
+},
+{
+  "fields": {
+    "required": true,
+    "product_class": 1,
+    "option_group": 1,
+    "code": "size",
+    "type": "option",
+    "name": "Size"
+  },
+  "model": "catalogue.productattribute",
+  "pk": 1
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 2,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 1,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 1
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 3,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 2,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 2
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 4,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 3,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 3
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 6,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 1,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 4
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 7,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 2,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 5
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 9,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 1,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 6
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 10,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 2,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 7
+},
+{
+  "fields": {
+    "value_date": null,
+    "value_integer": null,
+    "product": 11,
+    "value_float": null,
+    "entity_content_type": null,
+    "value_text": null,
+    "attribute": 1,
+    "value_richtext": null,
+    "entity_object_id": null,
+    "value_image": "",
+    "value_option": 3,
+    "value_boolean": null,
+    "value_file": ""
+  },
+  "model": "catalogue.productattributevalue",
+  "pk": 8
+},
+{
+  "fields": {
+    "name": "Sizes"
+  },
+  "model": "catalogue.attributeoptiongroup",
+  "pk": 1
+},
+{
+  "fields": {
+    "group": 1,
+    "option": "Small"
+  },
+  "model": "catalogue.attributeoption",
+  "pk": 1
+},
+{
+  "fields": {
+    "group": 1,
+    "option": "Medium"
+  },
+  "model": "catalogue.attributeoption",
+  "pk": 2
+},
+{
+  "fields": {
+    "group": 1,
+    "option": "Large"
+  },
+  "model": "catalogue.attributeoption",
+  "pk": 3
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 185,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596006624.jpg",
+    "date_created": "2016-01-19T10:08:17.500Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 1
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 132,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780135974445.jpg",
+    "date_created": "2016-01-19T10:08:17.502Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 2
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 136,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781590593899.jpg",
+    "date_created": "2016-01-19T10:08:17.504Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 3
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 77,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781466207608.jpg",
+    "date_created": "2016-01-19T10:08:17.506Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 4
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 61,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781416533214.jpg",
+    "date_created": "2016-01-19T10:08:17.508Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 5
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 108,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596517748.jpg",
+    "date_created": "2016-01-19T10:08:17.510Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 6
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 144,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780672326721.jpg",
+    "date_created": "2016-01-19T10:08:17.512Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 7
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 155,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780764543654.jpg",
+    "date_created": "2016-01-19T10:08:17.514Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 8
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 128,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780321334879.jpg",
+    "date_created": "2016-01-19T10:08:17.516Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 9
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 135,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780534950972.jpg",
+    "date_created": "2016-01-19T10:08:17.518Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 10
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 162,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780955683619.jpg",
+    "date_created": "2016-01-19T10:08:17.520Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 11
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 168,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780977616640.jpg",
+    "date_created": "2016-01-19T10:08:17.522Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 12
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 122,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780134900124.jpg",
+    "date_created": "2016-01-19T10:08:17.524Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 13
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 105,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780735619678.jpg",
+    "date_created": "2016-01-19T10:08:17.526Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 14
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 171,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262111898.jpg",
+    "date_created": "2016-01-19T10:08:17.528Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 15
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 143,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780672328794.jpg",
+    "date_created": "2016-01-19T10:08:17.530Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 16
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 29,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780765319852.jpg",
+    "date_created": "2016-01-19T10:08:17.532Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 17
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 139,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780136291558.jpg",
+    "date_created": "2016-01-19T10:08:17.534Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 18
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 166,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781430322641.jpg",
+    "date_created": "2016-01-19T10:08:17.536Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 19
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 192,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780316213547.jpg",
+    "date_created": "2016-01-19T10:08:17.538Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 20
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 131,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780131495050.jpg",
+    "date_created": "2016-01-19T10:08:17.540Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 21
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 35,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780345467171.jpg",
+    "date_created": "2016-01-19T10:08:17.542Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 22
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 107,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201700732.jpg",
+    "date_created": "2016-01-19T10:08:17.544Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 23
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 37,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780691147543.jpg",
+    "date_created": "2016-01-19T10:08:17.546Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 24
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 167,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780321278654.jpg",
+    "date_created": "2016-01-19T10:08:17.548Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 25
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 209,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780764544682.jpg",
+    "date_created": "2016-01-19T10:08:17.549Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 26
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 202,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780764574818.jpg",
+    "date_created": "2016-01-19T10:08:17.551Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 27
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 14,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780060512804.jpg",
+    "date_created": "2016-01-19T10:08:17.553Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 28
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 150,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780137081073.jpg",
+    "date_created": "2016-01-19T10:08:17.555Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 29
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 176,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201733860.jpg",
+    "date_created": "2016-01-19T10:08:17.557Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 30
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 164,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781934356296.jpg",
+    "date_created": "2016-01-19T10:08:17.559Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 31
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 119,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201615869.jpg",
+    "date_created": "2016-01-19T10:08:17.561Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 32
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 152,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780471578147.jpg",
+    "date_created": "2016-01-19T10:08:17.563Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 33
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 114,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596514983.jpg",
+    "date_created": "2016-01-19T10:08:17.565Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 34
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 33,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780441013678.jpg",
+    "date_created": "2016-01-19T10:08:17.567Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 35
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 17,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780340837948.jpg",
+    "date_created": "2016-01-19T10:08:17.569Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 36
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 123,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780321503626.jpg",
+    "date_created": "2016-01-19T10:08:17.571Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 37
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 198,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201914658.jpg",
+    "date_created": "2016-01-19T10:08:17.573Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 38
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 177,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780557043552.jpg",
+    "date_created": "2016-01-19T10:08:17.575Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 39
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 193,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781593272883.jpg",
+    "date_created": "2016-01-19T10:08:17.577Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 40
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 118,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262062183.jpg",
+    "date_created": "2016-01-19T10:08:17.579Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 41
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 31,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781429963947.jpg",
+    "date_created": "2016-01-19T10:08:17.581Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 42
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 49,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780982792827.jpg",
+    "date_created": "2016-01-19T10:08:17.583Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 43
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 16,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780553382563.jpg",
+    "date_created": "2016-01-19T10:08:17.585Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 44
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 157,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781934356586.jpg",
+    "date_created": "2016-01-19T10:08:17.587Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 45
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 182,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781593270070.jpg",
+    "date_created": "2016-01-19T10:08:17.589Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 46
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 57,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780812536362.jpg",
+    "date_created": "2016-01-19T10:08:17.591Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 47
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 187,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780764542800.jpg",
+    "date_created": "2016-01-19T10:08:17.593Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 48
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 194,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780307269751.jpg",
+    "date_created": "2016-01-19T10:08:17.595Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 49
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 93,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780380816033.jpg",
+    "date_created": "2016-01-19T10:08:17.597Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 50
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 116,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596007126.jpg",
+    "date_created": "2016-01-19T10:08:17.599Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 51
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 109,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201100884.jpg",
+    "date_created": "2016-01-19T10:08:17.601Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 52
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 181,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780471782667.jpg",
+    "date_created": "2016-01-19T10:08:17.603Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 53
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 68,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780752837451.jpg",
+    "date_created": "2016-01-19T10:08:17.605Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 54
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 30,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780765348272.jpg",
+    "date_created": "2016-01-19T10:08:17.607Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 55
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 175,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780321213358.jpg",
+    "date_created": "2016-01-19T10:08:17.609Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 56
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 207,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781430219484.jpg",
+    "date_created": "2016-01-19T10:08:17.611Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 57
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 180,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780316037709.jpg",
+    "date_created": "2016-01-19T10:08:17.614Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 58
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 121,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596002817.jpg",
+    "date_created": "2016-01-19T10:08:17.616Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 59
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 18,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780525951117.jpg",
+    "date_created": "2016-01-19T10:08:17.618Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 60
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 146,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201703535.jpg",
+    "date_created": "2016-01-19T10:08:17.620Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 61
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 44,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780804115483.jpg",
+    "date_created": "2016-01-19T10:08:17.623Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 62
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 199,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780307269997.jpg",
+    "date_created": "2016-01-19T10:08:17.624Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 63
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 115,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262560993.jpg",
+    "date_created": "2016-01-19T10:08:17.626Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 64
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 186,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780307588685.jpg",
+    "date_created": "2016-01-19T10:08:17.628Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 65
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 90,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781857988369.jpg",
+    "date_created": "2016-01-19T10:08:17.632Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 66
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 95,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781857987638.jpg",
+    "date_created": "2016-01-19T10:08:17.634Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 67
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 65,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780307430083.jpg",
+    "date_created": "2016-01-19T10:08:17.636Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 68
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 120,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780974514055.jpg",
+    "date_created": "2016-01-19T10:08:17.638Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 69
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 100,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201633610.jpg",
+    "date_created": "2016-01-19T10:08:17.640Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 70
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 110,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780130313584.jpg",
+    "date_created": "2016-01-19T10:08:17.642Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 71
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 165,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201741575.jpg",
+    "date_created": "2016-01-19T10:08:17.644Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 72
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 112,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262011532.jpg",
+    "date_created": "2016-01-19T10:08:17.646Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 73
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 98,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780131103627.jpg",
+    "date_created": "2016-01-19T10:08:17.648Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 74
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 42,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780552151696.jpg",
+    "date_created": "2016-01-19T10:08:17.650Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 75
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 129,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262033848.jpg",
+    "date_created": "2016-01-19T10:08:17.653Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 76
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 71,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781416507789.jpg",
+    "date_created": "2016-01-19T10:08:17.655Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 77
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 111,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780137903955.jpg",
+    "date_created": "2016-01-19T10:08:17.657Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 78
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 158,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262062794.jpg",
+    "date_created": "2016-01-19T10:08:17.658Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 79
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 104,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201835953.jpg",
+    "date_created": "2016-01-19T10:08:17.660Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 80
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 174,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781617290084.jpg",
+    "date_created": "2016-01-19T10:08:17.664Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 81
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 153,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781934356852.jpg",
+    "date_created": "2016-01-19T10:08:17.666Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 82
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 125,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780974514048.jpg",
+    "date_created": "2016-01-19T10:08:17.668Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 83
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 26,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780684833392.jpg",
+    "date_created": "2016-01-19T10:08:17.670Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 84
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 178,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596009205.jpg",
+    "date_created": "2016-01-19T10:08:17.672Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 85
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 66,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781568582474.jpg",
+    "date_created": "2016-01-19T10:08:17.674Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 86
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 52,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780812524826.jpg",
+    "date_created": "2016-01-19T10:08:17.676Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 87
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 102,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201485677.jpg",
+    "date_created": "2016-01-19T10:08:17.678Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 88
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 124,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780321146533.jpg",
+    "date_created": "2016-01-19T10:08:17.680Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 89
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 138,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781934356371.jpg",
+    "date_created": "2016-01-19T10:08:17.682Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 90
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 82,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780395860014.jpg",
+    "date_created": "2016-01-19T10:08:17.684Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 91
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 113,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780139376818.jpg",
+    "date_created": "2016-01-19T10:08:17.686Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 92
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 159,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780672327933.jpg",
+    "date_created": "2016-01-19T10:08:17.688Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 93
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 126,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780133708752.jpg",
+    "date_created": "2016-01-19T10:08:17.689Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 94
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 69,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780714530338.jpg",
+    "date_created": "2016-01-19T10:08:17.692Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 95
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 99,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201616224.jpg",
+    "date_created": "2016-01-19T10:08:17.694Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 96
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 195,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781591843573.jpg",
+    "date_created": "2016-01-19T10:08:17.696Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 97
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 172,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780976458708.jpg",
+    "date_created": "2016-01-19T10:08:17.698Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 98
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 130,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780976694007.jpg",
+    "date_created": "2016-01-19T10:08:17.700Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 99
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 147,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780130810816.jpg",
+    "date_created": "2016-01-19T10:08:17.702Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 100
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 208,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780072262582.jpg",
+    "date_created": "2016-01-19T10:08:17.704Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 101
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 179,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780131774292.jpg",
+    "date_created": "2016-01-19T10:08:17.706Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 102
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 142,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596529864.jpg",
+    "date_created": "2016-01-19T10:08:17.708Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 103
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 190,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596001087.jpg",
+    "date_created": "2016-01-19T10:08:17.710Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 104
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 196,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781593270469.jpg",
+    "date_created": "2016-01-19T10:08:17.712Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 105
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 133,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596101053.jpg",
+    "date_created": "2016-01-19T10:08:17.714Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 106
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 173,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596809485.jpg",
+    "date_created": "2016-01-19T10:08:17.716Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 107
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 86,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780446361309.jpg",
+    "date_created": "2016-01-19T10:08:17.718Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 108
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 21,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780385333788.jpg",
+    "date_created": "2016-01-19T10:08:17.720Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 109
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 169,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781591840565.jpg",
+    "date_created": "2016-01-19T10:08:17.722Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 110
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 15,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780345391803.jpg",
+    "date_created": "2016-01-19T10:08:17.724Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 111
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 88,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781935554158.jpg",
+    "date_created": "2016-01-19T10:08:17.726Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 112
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 127,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780596000271.jpg",
+    "date_created": "2016-01-19T10:08:17.728Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 113
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 24,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780525951575.jpg",
+    "date_created": "2016-01-19T10:08:17.730Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 114
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 154,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780557030798.jpg",
+    "date_created": "2016-01-19T10:08:17.732Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 115
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 134,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201433074.jpg",
+    "date_created": "2016-01-19T10:08:17.734Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 116
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 145,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780672323492.jpg",
+    "date_created": "2016-01-19T10:08:17.736Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 117
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 137,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780205313426.jpg",
+    "date_created": "2016-01-19T10:08:17.738Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 118
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 39,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780425198681.jpg",
+    "date_created": "2016-01-19T10:08:17.740Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 119
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 67,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781607012115.jpg",
+    "date_created": "2016-01-19T10:08:17.742Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 120
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 106,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780132350884.jpg",
+    "date_created": "2016-01-19T10:08:17.744Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 121
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 205,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780131481046.jpg",
+    "date_created": "2016-01-19T10:08:17.746Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 122
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 151,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780978739218.jpg",
+    "date_created": "2016-01-19T10:08:17.748Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 123
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 156,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781848000698.jpg",
+    "date_created": "2016-01-19T10:08:17.750Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 124
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 161,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201379235.jpg",
+    "date_created": "2016-01-19T10:08:17.752Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 125
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 141,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201342758.jpg",
+    "date_created": "2016-01-19T10:08:17.754Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 126
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 197,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781931836364.jpg",
+    "date_created": "2016-01-19T10:08:17.756Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 127
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 36,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780385533850.jpg",
+    "date_created": "2016-01-19T10:08:17.757Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 128
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 149,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780767907699.jpg",
+    "date_created": "2016-01-19T10:08:17.760Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 129
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 28,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780307887436.jpg",
+    "date_created": "2016-01-19T10:08:17.761Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 130
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 163,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780321437389.jpg",
+    "date_created": "2016-01-19T10:08:17.763Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 131
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 85,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780743421928.jpg",
+    "date_created": "2016-01-19T10:08:17.765Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 132
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 140,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780201889543.jpg",
+    "date_created": "2016-01-19T10:08:17.767Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 133
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 41,
+    "display_order": 0,
+    "original": "images/products/2016/01/9781450556569.jpg",
+    "date_created": "2016-01-19T10:08:17.769Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 134
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 200,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780471128458.jpg",
+    "date_created": "2016-01-19T10:08:17.771Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 135
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 184,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780141000510.jpg",
+    "date_created": "2016-01-19T10:08:17.773Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 136
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 101,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780262510875.jpg",
+    "date_created": "2016-01-19T10:08:17.775Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 137
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 188,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780072260816.jpg",
+    "date_created": "2016-01-19T10:08:17.777Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 138
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 40,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780441016792.jpg",
+    "date_created": "2016-01-19T10:08:17.780Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 139
+},
+{
+  "fields": {
+    "caption": "",
+    "product": 203,
+    "display_order": 0,
+    "original": "images/products/2016/01/9780307269980.jpg",
+    "date_created": "2016-01-19T10:08:17.782Z"
+  },
+  "model": "catalogue.productimage",
+  "pk": 140
+}
+]

@@ -1,0 +1,7 @@
+{% load i18n %}
+{% trans "This is the list of the categories:" %}
+{{ category.get_absolute_url }}
+{% for category in category_list %}
+	[{{ category.name }}](http://{{ site.domain }}{{ category.get_absolute_url }}):{{ category.description }}	
+{% endfor %}
+{% trans "Select the category to browse products" %}

@@ -1,0 +1,2 @@
+{% load telegrambot_filters %}{% autoescape off %}{{ product_list |keyboard_field:"command=products&field=slug&per_line=1"}}{% endautoescape %}
+

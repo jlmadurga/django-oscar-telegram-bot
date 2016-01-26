@@ -1,0 +1,8 @@
+{% load telegrambot_tags %}
+{% load currency_filters %}
+{% load i18n %}
+{% blocktrans with category=category.name %}Select from  **{{ category }}** the product you want{% endblocktrans %}
+{% for product in product_list %}
+	{% purchase_info_for_product product as session %}
+	-[{{ product.title }}]({{ product.get_absolute_url }}):{{ session.price.incl_tax|currency:session.price.currency }}
+{% endfor %}

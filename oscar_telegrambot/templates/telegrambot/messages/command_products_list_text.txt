@@ -1,0 +1,2 @@
+{% load i18n %}
+{% trans "Please select a category of products or provide the name of the product" %} _/product_ _name_

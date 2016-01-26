@@ -1,0 +1,5 @@
+{% load telegrambot_tags %}
+{% load currency_filters %}
+{% purchase_info_for_product product as session %}
+	[{{ product.title }}]({{ product.get_absolute_url }}):{{ session.price.incl_tax|currency:session.price.currency }}
+	  {{ product.description }}

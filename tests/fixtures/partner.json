@@ -1,0 +1,3674 @@
+[
+{
+  "fields": {
+    "code": "clothing-partner",
+    "name": "Clothing partner",
+    "users": []
+  },
+  "model": "partner.partner",
+  "pk": 2
+},
+{
+  "fields": {
+    "code": "book-partner",
+    "name": "Book partner",
+    "users": []
+  },
+  "model": "partner.partner",
+  "pk": 3
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 6,
+    "partner_sku": "clf-large",
+    "price_retail": null,
+    "date_updated": "2013-12-13T11:37:08.232Z",
+    "num_in_stock": 0,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2013-12-13T11:37:08.232Z",
+    "partner": 2,
+    "price_excl_tax": "10.00",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 1
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 7,
+    "partner_sku": "clf-med",
+    "price_retail": null,
+    "date_updated": "2013-12-13T11:37:45.928Z",
+    "num_in_stock": 0,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2013-12-13T11:37:45.928Z",
+    "partner": 2,
+    "price_excl_tax": "10.00",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 2
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 9,
+    "partner_sku": "tng-small",
+    "price_retail": null,
+    "date_updated": "2013-12-13T11:38:49.858Z",
+    "num_in_stock": 100,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2013-12-13T11:38:49.858Z",
+    "partner": 2,
+    "price_excl_tax": "15.00",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 3
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 10,
+    "partner_sku": "tng-med",
+    "price_retail": null,
+    "date_updated": "2013-12-13T11:39:12.947Z",
+    "num_in_stock": 200,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2013-12-13T11:39:12.947Z",
+    "partner": 2,
+    "price_excl_tax": "15.00",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 4
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 11,
+    "partner_sku": "tng-large",
+    "price_retail": null,
+    "date_updated": "2013-12-13T11:39:53.162Z",
+    "num_in_stock": 0,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2013-12-13T11:39:53.162Z",
+    "partner": 2,
+    "price_excl_tax": "15.00",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 5
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 12,
+    "partner_sku": "9780553380958",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.503Z",
+    "num_in_stock": 27,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.229Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 6
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 13,
+    "partner_sku": "9780441569595",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.352Z",
+    "num_in_stock": 51,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.352Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 7
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 14,
+    "partner_sku": "9780060512804",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.362Z",
+    "num_in_stock": 56,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.362Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 8
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 15,
+    "partner_sku": "9780345391803",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.371Z",
+    "num_in_stock": 58,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.371Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 9
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 16,
+    "partner_sku": "9780553382563",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.380Z",
+    "num_in_stock": 54,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.380Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 10
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 17,
+    "partner_sku": "9780340837948",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.389Z",
+    "num_in_stock": 52,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.389Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 11
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 18,
+    "partner_sku": "9780525951117",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.398Z",
+    "num_in_stock": 64,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.398Z",
+    "partner": 3,
+    "price_excl_tax": "22.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 12
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 19,
+    "partner_sku": "9780451457998",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.407Z",
+    "num_in_stock": 36,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.407Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 13
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 20,
+    "partner_sku": "9780905712826",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.416Z",
+    "num_in_stock": 30,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.416Z",
+    "partner": 3,
+    "price_excl_tax": "14.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 14
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 21,
+    "partner_sku": "9780385333788",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.425Z",
+    "num_in_stock": 94,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.425Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 15
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 22,
+    "partner_sku": "9780553294613",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.434Z",
+    "num_in_stock": 85,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.434Z",
+    "partner": 3,
+    "price_excl_tax": "5.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 16
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 23,
+    "partner_sku": "9780060987046",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.443Z",
+    "num_in_stock": 61,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.443Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 17
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 24,
+    "partner_sku": "9780525951575",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.452Z",
+    "num_in_stock": 43,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.452Z",
+    "partner": 3,
+    "price_excl_tax": "25.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 18
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 25,
+    "partner_sku": "9780345331199",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.461Z",
+    "num_in_stock": 15,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.461Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 19
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 26,
+    "partner_sku": "9780684833392",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.470Z",
+    "num_in_stock": 34,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.470Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 20
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 27,
+    "partner_sku": "9780450055508",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.479Z",
+    "num_in_stock": 13,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.479Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 21
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 28,
+    "partner_sku": "9780307887436",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.488Z",
+    "num_in_stock": 4,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.488Z",
+    "partner": 3,
+    "price_excl_tax": "8.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 22
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 29,
+    "partner_sku": "9780765319852",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.420Z",
+    "num_in_stock": 92,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.497Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 23
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 30,
+    "partner_sku": "9780765348272",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.506Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.506Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 24
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 31,
+    "partner_sku": "9781429963947",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.515Z",
+    "num_in_stock": 74,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.515Z",
+    "partner": 3,
+    "price_excl_tax": "22.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 25
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 32,
+    "partner_sku": "9781409903291",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.524Z",
+    "num_in_stock": 19,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.524Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 26
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 33,
+    "partner_sku": "9780441013678",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.533Z",
+    "num_in_stock": 68,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.533Z",
+    "partner": 3,
+    "price_excl_tax": "21.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 27
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 34,
+    "partner_sku": "9780553380965",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.542Z",
+    "num_in_stock": 85,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.542Z",
+    "partner": 3,
+    "price_excl_tax": "5.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 28
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 35,
+    "partner_sku": "9780345467171",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.551Z",
+    "num_in_stock": 81,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.551Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 29
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 36,
+    "partner_sku": "9780385533850",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.560Z",
+    "num_in_stock": 7,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.560Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 30
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 37,
+    "partner_sku": "9780691147543",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.569Z",
+    "num_in_stock": 35,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.569Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 31
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 38,
+    "partner_sku": "9780307594778",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.579Z",
+    "num_in_stock": 58,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.579Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 32
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 39,
+    "partner_sku": "9780425198681",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.588Z",
+    "num_in_stock": 85,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.588Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 33
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 40,
+    "partner_sku": "9780441016792",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.597Z",
+    "num_in_stock": 50,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.597Z",
+    "partner": 3,
+    "price_excl_tax": "5.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 34
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 41,
+    "partner_sku": "9781450556569",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.606Z",
+    "num_in_stock": 48,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.606Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 35
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 42,
+    "partner_sku": "9780552151696",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.615Z",
+    "num_in_stock": 33,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.615Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 36
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 43,
+    "partner_sku": "9780763622596",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.624Z",
+    "num_in_stock": 78,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.624Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 37
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 44,
+    "partner_sku": "9780804115483",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.634Z",
+    "num_in_stock": 37,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.634Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 38
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 45,
+    "partner_sku": "9780441363957",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.644Z",
+    "num_in_stock": 47,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.644Z",
+    "partner": 3,
+    "price_excl_tax": "8.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 39
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 46,
+    "partner_sku": "9780553264654",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.653Z",
+    "num_in_stock": 68,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.653Z",
+    "partner": 3,
+    "price_excl_tax": "28.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 40
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 47,
+    "partner_sku": "9780446364966",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.663Z",
+    "num_in_stock": 4,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.663Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 41
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 48,
+    "partner_sku": "9780312423131",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.672Z",
+    "num_in_stock": 71,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.672Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 42
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 49,
+    "partner_sku": "9780982792827",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.681Z",
+    "num_in_stock": 74,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.681Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 43
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 50,
+    "partner_sku": "9780156032971",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.690Z",
+    "num_in_stock": 93,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.690Z",
+    "partner": 3,
+    "price_excl_tax": "8.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 44
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 51,
+    "partner_sku": "9780553575378",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.699Z",
+    "num_in_stock": 16,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.698Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 45
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 52,
+    "partner_sku": "9780812524826",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.708Z",
+    "num_in_stock": 9,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.708Z",
+    "partner": 3,
+    "price_excl_tax": "12.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 46
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 53,
+    "partner_sku": "9780425074657",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.717Z",
+    "num_in_stock": 31,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.717Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 47
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 54,
+    "partner_sku": "9780425074671",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.727Z",
+    "num_in_stock": 97,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.727Z",
+    "partner": 3,
+    "price_excl_tax": "19.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 48
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 55,
+    "partner_sku": "9781425470890",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.736Z",
+    "num_in_stock": 43,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.736Z",
+    "partner": 3,
+    "price_excl_tax": "14.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 49
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 56,
+    "partner_sku": "9780375724503",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.745Z",
+    "num_in_stock": 3,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.745Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 50
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 57,
+    "partner_sku": "9780812536362",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.754Z",
+    "num_in_stock": 37,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.754Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 51
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 58,
+    "partner_sku": "9780452286511",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.763Z",
+    "num_in_stock": 37,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.763Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 52
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 59,
+    "partner_sku": "9780881848120",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.772Z",
+    "num_in_stock": 94,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.772Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 53
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 60,
+    "partner_sku": "9780345475824",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.781Z",
+    "num_in_stock": 39,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.781Z",
+    "partner": 3,
+    "price_excl_tax": "14.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 54
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 61,
+    "partner_sku": "9781416533214",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.790Z",
+    "num_in_stock": 58,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.790Z",
+    "partner": 3,
+    "price_excl_tax": "5.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 55
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 62,
+    "partner_sku": "9781419669972",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.799Z",
+    "num_in_stock": 21,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.799Z",
+    "partner": 3,
+    "price_excl_tax": "21.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 56
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 63,
+    "partner_sku": "9780375700514",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.809Z",
+    "num_in_stock": 52,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.809Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 57
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 64,
+    "partner_sku": "9781575660813",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.818Z",
+    "num_in_stock": 20,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.818Z",
+    "partner": 3,
+    "price_excl_tax": "13.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 58
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 65,
+    "partner_sku": "9780307430083",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.826Z",
+    "num_in_stock": 13,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.826Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 59
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 66,
+    "partner_sku": "9781568582474",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.836Z",
+    "num_in_stock": 26,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.836Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 60
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 67,
+    "partner_sku": "9781607012115",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.845Z",
+    "num_in_stock": 89,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.845Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 61
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 68,
+    "partner_sku": "9780752837451",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.854Z",
+    "num_in_stock": 81,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.854Z",
+    "partner": 3,
+    "price_excl_tax": "12.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 62
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 69,
+    "partner_sku": "9780714530338",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.863Z",
+    "num_in_stock": 85,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.863Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 63
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 70,
+    "partner_sku": "9780593018958",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.872Z",
+    "num_in_stock": 11,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.872Z",
+    "partner": 3,
+    "price_excl_tax": "25.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 64
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 71,
+    "partner_sku": "9781416507789",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.303Z",
+    "num_in_stock": 14,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.881Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 65
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 72,
+    "partner_sku": "9780425137482",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.890Z",
+    "num_in_stock": 96,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.890Z",
+    "partner": 3,
+    "price_excl_tax": "19.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 66
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 73,
+    "partner_sku": "9780486419268",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.899Z",
+    "num_in_stock": 86,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.899Z",
+    "partner": 3,
+    "price_excl_tax": "22.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 67
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 74,
+    "partner_sku": "9780786123322",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.908Z",
+    "num_in_stock": 77,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.908Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 68
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 75,
+    "partner_sku": "9780812531930",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.917Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.917Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 69
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 76,
+    "partner_sku": "9781556342332",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.926Z",
+    "num_in_stock": 10,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.926Z",
+    "partner": 3,
+    "price_excl_tax": "22.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 70
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 77,
+    "partner_sku": "9781466207608",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.935Z",
+    "num_in_stock": 19,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.935Z",
+    "partner": 3,
+    "price_excl_tax": "22.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 71
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 78,
+    "partner_sku": "9780553290028",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.944Z",
+    "num_in_stock": 92,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.944Z",
+    "partner": 3,
+    "price_excl_tax": "25.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 72
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 79,
+    "partner_sku": "9780252072239",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.953Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.953Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 73
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 80,
+    "partner_sku": "9780886822330",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.962Z",
+    "num_in_stock": 46,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.962Z",
+    "partner": 3,
+    "price_excl_tax": "19.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 74
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 81,
+    "partner_sku": "9780595297634",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.971Z",
+    "num_in_stock": 40,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.971Z",
+    "partner": 3,
+    "price_excl_tax": "25.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 75
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 82,
+    "partner_sku": "9780395860014",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.980Z",
+    "num_in_stock": 0,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.980Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 76
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 83,
+    "partner_sku": "9780575061897",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.989Z",
+    "num_in_stock": 32,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.989Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 77
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 84,
+    "partner_sku": "9780345275172",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:14.998Z",
+    "num_in_stock": 13,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:14.998Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 78
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 85,
+    "partner_sku": "9780743421928",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.007Z",
+    "num_in_stock": 76,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.007Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 79
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 86,
+    "partner_sku": "9780446361309",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.016Z",
+    "num_in_stock": 57,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.016Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 80
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 87,
+    "partner_sku": "9780671559168",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.025Z",
+    "num_in_stock": 36,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.025Z",
+    "partner": 3,
+    "price_excl_tax": "4.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 81
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 88,
+    "partner_sku": "9781935554158",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.034Z",
+    "num_in_stock": 54,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.034Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 82
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 89,
+    "partner_sku": "9780552088046",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.044Z",
+    "num_in_stock": 27,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.044Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 83
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 90,
+    "partner_sku": "9781857988369",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.052Z",
+    "num_in_stock": 9,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.052Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 84
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 91,
+    "partner_sku": "9780575601604",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.062Z",
+    "num_in_stock": 48,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.062Z",
+    "partner": 3,
+    "price_excl_tax": "10.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 85
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 92,
+    "partner_sku": "9781345004373",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.071Z",
+    "num_in_stock": 31,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.071Z",
+    "partner": 3,
+    "price_excl_tax": "18.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 86
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 93,
+    "partner_sku": "9780380816033",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.080Z",
+    "num_in_stock": 62,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.080Z",
+    "partner": 3,
+    "price_excl_tax": "5.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 87
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 94,
+    "partner_sku": "9780671720735",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.089Z",
+    "num_in_stock": 87,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.088Z",
+    "partner": 3,
+    "price_excl_tax": "28.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 88
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 95,
+    "partner_sku": "9781857987638",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.097Z",
+    "num_in_stock": 74,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.097Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 89
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 96,
+    "partner_sku": "9780671559700",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.106Z",
+    "num_in_stock": 97,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.106Z",
+    "partner": 3,
+    "price_excl_tax": "18.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 90
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 97,
+    "partner_sku": "9780812580860",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.116Z",
+    "num_in_stock": 96,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.116Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 91
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 98,
+    "partner_sku": "9780131103627",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.325Z",
+    "num_in_stock": 20,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.325Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 92
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 99,
+    "partner_sku": "9780201616224",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.335Z",
+    "num_in_stock": 82,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.335Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 93
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 100,
+    "partner_sku": "9780201633610",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.345Z",
+    "num_in_stock": 74,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.345Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 94
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 101,
+    "partner_sku": "9780262510875",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.355Z",
+    "num_in_stock": 54,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.355Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 95
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 102,
+    "partner_sku": "9780201485677",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.365Z",
+    "num_in_stock": 9,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.365Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 96
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 103,
+    "partner_sku": "9780201485417",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.374Z",
+    "num_in_stock": 37,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.374Z",
+    "partner": 3,
+    "price_excl_tax": "18.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 97
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 104,
+    "partner_sku": "9780201835953",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.383Z",
+    "num_in_stock": 90,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.383Z",
+    "partner": 3,
+    "price_excl_tax": "8.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 98
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 105,
+    "partner_sku": "9780735619678",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.392Z",
+    "num_in_stock": 88,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.392Z",
+    "partner": 3,
+    "price_excl_tax": "27.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 99
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 106,
+    "partner_sku": "9780132350884",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.401Z",
+    "num_in_stock": 91,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.401Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 100
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 107,
+    "partner_sku": "9780201700732",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.410Z",
+    "num_in_stock": 88,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.410Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 101
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 108,
+    "partner_sku": "9780596517748",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.419Z",
+    "num_in_stock": 49,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.419Z",
+    "partner": 3,
+    "price_excl_tax": "21.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 102
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 109,
+    "partner_sku": "9780201100884",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.428Z",
+    "num_in_stock": 2,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.428Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 103
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 110,
+    "partner_sku": "9780130313584",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.459Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.459Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 104
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 111,
+    "partner_sku": "9780137903955",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.468Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.468Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 105
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 112,
+    "partner_sku": "9780262011532",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.477Z",
+    "num_in_stock": 5,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.477Z",
+    "partner": 3,
+    "price_excl_tax": "28.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 106
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 113,
+    "partner_sku": "9780139376818",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.486Z",
+    "num_in_stock": 44,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.486Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 107
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 114,
+    "partner_sku": "9780596514983",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.495Z",
+    "num_in_stock": 18,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.495Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 108
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 115,
+    "partner_sku": "9780262560993",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.505Z",
+    "num_in_stock": 31,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.505Z",
+    "partner": 3,
+    "price_excl_tax": "21.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 109
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 116,
+    "partner_sku": "9780596007126",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.514Z",
+    "num_in_stock": 12,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.514Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 110
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 117,
+    "partner_sku": "9780131177055",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.523Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.523Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 111
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 118,
+    "partner_sku": "9780262062183",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.532Z",
+    "num_in_stock": 4,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.532Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 112
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 119,
+    "partner_sku": "9780201615869",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.566Z",
+    "num_in_stock": 63,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.566Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 113
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 120,
+    "partner_sku": "9780974514055",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.575Z",
+    "num_in_stock": 61,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.575Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 114
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 121,
+    "partner_sku": "9780596002817",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.584Z",
+    "num_in_stock": 7,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.584Z",
+    "partner": 3,
+    "price_excl_tax": "18.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 115
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 122,
+    "partner_sku": "9780134900124",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.593Z",
+    "num_in_stock": 21,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.593Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 116
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 123,
+    "partner_sku": "9780321503626",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.602Z",
+    "num_in_stock": 49,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.602Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 117
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 124,
+    "partner_sku": "9780321146533",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.611Z",
+    "num_in_stock": 39,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.611Z",
+    "partner": 3,
+    "price_excl_tax": "19.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 118
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 125,
+    "partner_sku": "9780974514048",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.620Z",
+    "num_in_stock": 94,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.620Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 119
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 126,
+    "partner_sku": "9780133708752",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.629Z",
+    "num_in_stock": 93,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.629Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 120
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 127,
+    "partner_sku": "9780596000271",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.638Z",
+    "num_in_stock": 48,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.638Z",
+    "partner": 3,
+    "price_excl_tax": "21.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 121
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 128,
+    "partner_sku": "9780321334879",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.647Z",
+    "num_in_stock": 34,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.647Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 122
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 129,
+    "partner_sku": "9780262033848",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.656Z",
+    "num_in_stock": 49,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.656Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 123
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 130,
+    "partner_sku": "9780976694007",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.665Z",
+    "num_in_stock": 18,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.665Z",
+    "partner": 3,
+    "price_excl_tax": "8.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 124
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 131,
+    "partner_sku": "9780131495050",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.674Z",
+    "num_in_stock": 30,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.674Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 125
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 132,
+    "partner_sku": "9780135974445",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.683Z",
+    "num_in_stock": 40,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.683Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 126
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 133,
+    "partner_sku": "9780596101053",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.692Z",
+    "num_in_stock": 84,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.692Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 127
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 134,
+    "partner_sku": "9780201433074",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.701Z",
+    "num_in_stock": 29,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.701Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 128
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 135,
+    "partner_sku": "9780534950972",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.710Z",
+    "num_in_stock": 7,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.710Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 129
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 136,
+    "partner_sku": "9781590593899",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.719Z",
+    "num_in_stock": 44,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.719Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 130
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 137,
+    "partner_sku": "9780205313426",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.728Z",
+    "num_in_stock": 80,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.728Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 131
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 138,
+    "partner_sku": "9781934356371",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.737Z",
+    "num_in_stock": 93,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.737Z",
+    "partner": 3,
+    "price_excl_tax": "19.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 132
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 139,
+    "partner_sku": "9780136291558",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.746Z",
+    "num_in_stock": 9,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.746Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 133
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 140,
+    "partner_sku": "9780201889543",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.755Z",
+    "num_in_stock": 14,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.755Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 134
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 141,
+    "partner_sku": "9780201342758",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.764Z",
+    "num_in_stock": 57,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.764Z",
+    "partner": 3,
+    "price_excl_tax": "8.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 135
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 142,
+    "partner_sku": "9780596529864",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.773Z",
+    "num_in_stock": 58,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.773Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 136
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 143,
+    "partner_sku": "9780672328794",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.782Z",
+    "num_in_stock": 7,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.782Z",
+    "partner": 3,
+    "price_excl_tax": "14.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 137
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 144,
+    "partner_sku": "9780672326721",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.792Z",
+    "num_in_stock": 41,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.792Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 138
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 145,
+    "partner_sku": "9780672323492",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.801Z",
+    "num_in_stock": 54,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.801Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 139
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 146,
+    "partner_sku": "9780201703535",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.810Z",
+    "num_in_stock": 2,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.810Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 140
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 147,
+    "partner_sku": "9780130810816",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.819Z",
+    "num_in_stock": 39,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.819Z",
+    "partner": 3,
+    "price_excl_tax": "4.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 141
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 148,
+    "partner_sku": "9780961392147",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.828Z",
+    "num_in_stock": 85,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.828Z",
+    "partner": 3,
+    "price_excl_tax": "13.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 142
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 149,
+    "partner_sku": "9780767907699",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.837Z",
+    "num_in_stock": 5,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.837Z",
+    "partner": 3,
+    "price_excl_tax": "7.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 143
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 150,
+    "partner_sku": "9780137081073",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.846Z",
+    "num_in_stock": 66,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.846Z",
+    "partner": 3,
+    "price_excl_tax": "28.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 144
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 151,
+    "partner_sku": "9780978739218",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.855Z",
+    "num_in_stock": 90,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.855Z",
+    "partner": 3,
+    "price_excl_tax": "27.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 145
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 152,
+    "partner_sku": "9780471578147",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.865Z",
+    "num_in_stock": 81,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.865Z",
+    "partner": 3,
+    "price_excl_tax": "14.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 146
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 153,
+    "partner_sku": "9781934356852",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.874Z",
+    "num_in_stock": 42,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.874Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 147
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 154,
+    "partner_sku": "9780557030798",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.883Z",
+    "num_in_stock": 84,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.883Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 148
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 155,
+    "partner_sku": "9780764543654",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.892Z",
+    "num_in_stock": 19,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.892Z",
+    "partner": 3,
+    "price_excl_tax": "21.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 149
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 156,
+    "partner_sku": "9781848000698",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.901Z",
+    "num_in_stock": 73,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.901Z",
+    "partner": 3,
+    "price_excl_tax": "5.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 150
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 157,
+    "partner_sku": "9781934356586",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.910Z",
+    "num_in_stock": 65,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.910Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 151
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 158,
+    "partner_sku": "9780262062794",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.919Z",
+    "num_in_stock": 97,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.919Z",
+    "partner": 3,
+    "price_excl_tax": "14.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 152
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 159,
+    "partner_sku": "9780672327933",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.928Z",
+    "num_in_stock": 64,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.928Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 153
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 160,
+    "partner_sku": "9780133262247",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.937Z",
+    "num_in_stock": 40,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.937Z",
+    "partner": 3,
+    "price_excl_tax": "4.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 154
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 161,
+    "partner_sku": "9780201379235",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.946Z",
+    "num_in_stock": 51,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.946Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 155
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 162,
+    "partner_sku": "9780955683619",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.955Z",
+    "num_in_stock": 77,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.955Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 156
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 163,
+    "partner_sku": "9780321437389",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.965Z",
+    "num_in_stock": 9,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.965Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 157
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 164,
+    "partner_sku": "9781934356296",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.973Z",
+    "num_in_stock": 33,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.973Z",
+    "partner": 3,
+    "price_excl_tax": "26.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 158
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 165,
+    "partner_sku": "9780201741575",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.983Z",
+    "num_in_stock": 95,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.983Z",
+    "partner": 3,
+    "price_excl_tax": "20.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 159
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 166,
+    "partner_sku": "9781430322641",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:15.992Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:15.992Z",
+    "partner": 3,
+    "price_excl_tax": "13.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 160
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 167,
+    "partner_sku": "9780321278654",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.000Z",
+    "num_in_stock": 62,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.000Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 161
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 168,
+    "partner_sku": "9780977616640",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.010Z",
+    "num_in_stock": 1,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.010Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 162
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 169,
+    "partner_sku": "9781591840565",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.018Z",
+    "num_in_stock": 43,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.018Z",
+    "partner": 3,
+    "price_excl_tax": "10.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 163
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 170,
+    "partner_sku": "9780884271789",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.028Z",
+    "num_in_stock": 5,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.028Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 164
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 171,
+    "partner_sku": "9780262111898",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.037Z",
+    "num_in_stock": 81,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.037Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 165
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 172,
+    "partner_sku": "9780976458708",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.045Z",
+    "num_in_stock": 35,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.045Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 166
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 173,
+    "partner_sku": "9780596809485",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.054Z",
+    "num_in_stock": 84,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.054Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 167
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 174,
+    "partner_sku": "9781617290084",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.064Z",
+    "num_in_stock": 23,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.063Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 168
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 175,
+    "partner_sku": "9780321213358",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.072Z",
+    "num_in_stock": 6,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.072Z",
+    "partner": 3,
+    "price_excl_tax": "28.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 169
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 176,
+    "partner_sku": "9780201733860",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.082Z",
+    "num_in_stock": 63,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.082Z",
+    "partner": 3,
+    "price_excl_tax": "11.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 170
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 177,
+    "partner_sku": "9780557043552",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.091Z",
+    "num_in_stock": 30,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.091Z",
+    "partner": 3,
+    "price_excl_tax": "1.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 171
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 178,
+    "partner_sku": "9780596009205",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.111Z",
+    "num_in_stock": 86,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.111Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 172
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 179,
+    "partner_sku": "9780131774292",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.120Z",
+    "num_in_stock": 45,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.120Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 173
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 180,
+    "partner_sku": "9780316037709",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.314Z",
+    "num_in_stock": 56,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.314Z",
+    "partner": 3,
+    "price_excl_tax": "10.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 174
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 181,
+    "partner_sku": "9780471782667",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.324Z",
+    "num_in_stock": 57,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.324Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 175
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 182,
+    "partner_sku": "9781593270070",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.334Z",
+    "num_in_stock": 90,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.334Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 176
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 183,
+    "partner_sku": "9780553563702",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.347Z",
+    "num_in_stock": 35,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.347Z",
+    "partner": 3,
+    "price_excl_tax": "28.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 177
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 184,
+    "partner_sku": "9780141000510",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.356Z",
+    "num_in_stock": 45,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.356Z",
+    "partner": 3,
+    "price_excl_tax": "16.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 178
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 185,
+    "partner_sku": "9780596006624",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.365Z",
+    "num_in_stock": 0,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.365Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 179
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 186,
+    "partner_sku": "9780307588685",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.374Z",
+    "num_in_stock": 83,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.374Z",
+    "partner": 3,
+    "price_excl_tax": "27.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 180
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 187,
+    "partner_sku": "9780764542800",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.384Z",
+    "num_in_stock": 6,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.384Z",
+    "partner": 3,
+    "price_excl_tax": "17.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 181
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 188,
+    "partner_sku": "9780072260816",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.393Z",
+    "num_in_stock": 92,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.393Z",
+    "partner": 3,
+    "price_excl_tax": "2.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 182
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 189,
+    "partner_sku": "9780060926946",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.402Z",
+    "num_in_stock": 18,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.402Z",
+    "partner": 3,
+    "price_excl_tax": "27.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 183
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 190,
+    "partner_sku": "9780596001087",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.411Z",
+    "num_in_stock": 12,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.411Z",
+    "partner": 3,
+    "price_excl_tax": "10.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 184
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 191,
+    "partner_sku": "9780470639535",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.430Z",
+    "num_in_stock": 55,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.430Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 185
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 192,
+    "partner_sku": "9780316213547",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.439Z",
+    "num_in_stock": 47,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.439Z",
+    "partner": 3,
+    "price_excl_tax": "27.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 186
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 193,
+    "partner_sku": "9781593272883",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.448Z",
+    "num_in_stock": 22,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.448Z",
+    "partner": 3,
+    "price_excl_tax": "18.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 187
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 194,
+    "partner_sku": "9780307269751",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.457Z",
+    "num_in_stock": 7,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.457Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 188
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 195,
+    "partner_sku": "9781591843573",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.466Z",
+    "num_in_stock": 3,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.466Z",
+    "partner": 3,
+    "price_excl_tax": "6.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 189
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 196,
+    "partner_sku": "9781593270469",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.475Z",
+    "num_in_stock": 54,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.475Z",
+    "partner": 3,
+    "price_excl_tax": "4.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 190
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 197,
+    "partner_sku": "9781931836364",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.485Z",
+    "num_in_stock": 19,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.484Z",
+    "partner": 3,
+    "price_excl_tax": "0.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 191
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 198,
+    "partner_sku": "9780201914658",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.493Z",
+    "num_in_stock": 83,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.493Z",
+    "partner": 3,
+    "price_excl_tax": "13.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 192
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 199,
+    "partner_sku": "9780307269997",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.513Z",
+    "num_in_stock": 55,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.513Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 193
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 200,
+    "partner_sku": "9780471128458",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.522Z",
+    "num_in_stock": 73,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.522Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 194
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 201,
+    "partner_sku": "9780684818627",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.531Z",
+    "num_in_stock": 36,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.531Z",
+    "partner": 3,
+    "price_excl_tax": "22.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 195
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 202,
+    "partner_sku": "9780764574818",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.540Z",
+    "num_in_stock": 56,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.540Z",
+    "partner": 3,
+    "price_excl_tax": "3.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 196
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 203,
+    "partner_sku": "9780307269980",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.549Z",
+    "num_in_stock": 81,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.549Z",
+    "partner": 3,
+    "price_excl_tax": "12.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 197
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 204,
+    "partner_sku": "9780072257090",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.558Z",
+    "num_in_stock": 94,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.558Z",
+    "partner": 3,
+    "price_excl_tax": "12.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 198
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 205,
+    "partner_sku": "9780131481046",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.567Z",
+    "num_in_stock": 7,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.567Z",
+    "partner": 3,
+    "price_excl_tax": "15.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 199
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 206,
+    "partner_sku": "9780970978813",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.576Z",
+    "num_in_stock": 94,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.576Z",
+    "partner": 3,
+    "price_excl_tax": "24.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 200
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 207,
+    "partner_sku": "9781430219484",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.585Z",
+    "num_in_stock": 86,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.585Z",
+    "partner": 3,
+    "price_excl_tax": "19.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 201
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 208,
+    "partner_sku": "9780072262582",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.594Z",
+    "num_in_stock": 97,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.594Z",
+    "partner": 3,
+    "price_excl_tax": "23.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 202
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 209,
+    "partner_sku": "9780764544682",
+    "price_retail": null,
+    "date_updated": "2016-01-19T10:08:16.602Z",
+    "num_in_stock": 42,
+    "num_allocated": null,
+    "low_stock_threshold": null,
+    "date_created": "2016-01-19T10:08:16.602Z",
+    "partner": 3,
+    "price_excl_tax": "9.99",
+    "cost_price": null
+  },
+  "model": "partner.stockrecord",
+  "pk": 203
+}
+]

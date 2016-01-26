@@ -1,0 +1,2 @@
+{% load i18n %}
+{% trans "Please provide order number to obtain details" %} _/orders_ _number_
