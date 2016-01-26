@@ -42,7 +42,7 @@ class BaseTestCommands(TestCase):
             else:
                 self.assertInKeyboard(command['values']['reply_markup'], kwargs['reply_markup'].keyboard)
                 
-            self.assertIn(command['values']['text'], kwargs['text'])
+            self.assertIn(command['values']['text'], kwargs['text'].decode('utf-8'))
     
 class TestSimpleCommands(BaseTestCommands):
     start = {'command': 'start',
