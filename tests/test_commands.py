@@ -4,6 +4,7 @@ from tests import factories
 from django.test.testcases import TestCase
 from telegram.replykeyboardhide import ReplyKeyboardHide
 from django.core.urlresolvers import reverse
+from telegrambot import conf
 try:
     from unittest import mock
 except ImportError:
@@ -13,7 +14,7 @@ except ImportError:
 class BaseTestCommands(TestCase):
     csrf_checks = False
     setup_auth = False
-    webhook_url = reverse('telegram-webhook')
+    webhook_url = reverse('telegrambot:webhook', kwargs={'token': conf.TELEGRAM_BOT_TOKEN})
     
     def setUp(self):
         super(BaseTestCommands, self).setUp()

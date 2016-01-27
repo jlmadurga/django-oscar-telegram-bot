@@ -65,11 +65,14 @@ As other django-telegram-bot app set your bot token::
 	
 Add url to have webhook::
 
-	url(r'^telegrambot/', include('telegrambot.urls')),
+	url(r'^telegrambot/', include('telegrambot.urls', namespace="telegrambot")),
 	
-To set the webhook for telegram you need 'django.contrib.sites' installed, SITE_ID configured in settings and
-with it correct value in the DB.
+Use command  ``set_webhook`` to specify the url to receive the incoming updates via webhook::
 
+	$ python manage.py set_webhook
+	
+To set the webhook for telegram you need ``django.contrib.sites`` installed, ``SITE_ID`` configured in settings and
+with it correct value in the DB.
 
 You can take a look to a demo repo using the sandbox in https://github.com/jlmadurga/django-oscar-telegram-bot-demo.
 This demo is already installed in http://django-oscar-telegram-bot-demo.herokuapp.com/en-gb/ and you can test the
