@@ -34,7 +34,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
     name='django-oscar-telegram-bot',
-    version=version,
+    version="0.1.0",
     description="""Telegram Bot for Oscar shops""",
     long_description=readme + '\n\n' + history,
     author='Juan Madurga',
