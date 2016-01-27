@@ -6,7 +6,7 @@ from oscar.app import application
 urlpatterns = patterns(
     '',
     url(r'^i18n/', include('django.conf.urls.i18n')),
-    url(r'^telegrambot/', include('telegrambot.urls')),
+    url(r'^telegrambot/', include('telegrambot.urls', namespace='telegrambot')),
 )
 urlpatterns += i18n_patterns(
     '',
