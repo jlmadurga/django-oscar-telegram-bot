@@ -7,21 +7,23 @@ Order = get_model('order', 'Order')
 Selector = get_class('partner.strategy', 'Selector')
 
 class StartView(generic.TemplateCommandView):
-    template_code = "start"
+    template_text = "oscar_telegrambot/messages/command_start_text.txt"
     
 class HelpView(generic.TemplateCommandView):
-    template_code = "help"
+    template_text = "oscar_telegrambot/messages/command_help_text.txt"
     
 class UnknownView(generic.TemplateCommandView):
-    template_code = "unknown"
+    template_text = "oscar_telegrambot/messages/command_unknown_text.txt"
     
 class CategoryListView(generic.ListCommandView):
-    template_code = "categories_list"
+    template_text = "oscar_telegrambot/messages/command_categories_list_text.txt"
+    template_keyboard = "oscar_telegrambot/messages/command_categories_list_keyboard.txt"
     model = Category
     context_object_name = "category_list"
     
 class CategoryDetailView(generic.DetailCommandView):
-    template_code = "categories_detail"
+    template_text = "oscar_telegrambot/messages/command_categories_detail_text.txt"
+    template_keyboard = "oscar_telegrambot/messages/command_categories_detail_keyboard.txt"
     context_object_name = "product_list"
     
     def __init__(self, slug=None):
@@ -52,13 +54,14 @@ class CategoryListDetailView(generic.ListDetailCommandView):
     
     
 class ProductDetailView(generic.DetailCommandView):
-    template_code = "products_detail"
+    template_text = "oscar_telegrambot/messages/command_products_detail_text.txt"
     context_object_name = "product"
     model = Product
     slug_field = 'slug'
     
 class ProductSelectOneView(generic.ListCommandView):
-    template_code = "products_list"
+    template_text = "oscar_telegrambot/messages/command_products_list_text.txt"
+    template_keyboard = "oscar_telegrambot/messages/command_products_list_keyboard.txt"
     model = Category
     context_object_name = "category_list"
     
@@ -67,13 +70,13 @@ class ProductListDetailView(generic.ListDetailCommandView):
     detail_view_class = ProductDetailView
     
 class OrdersDetailView(generic.DetailCommandView):
-    template_code = "orders_detail"
+    template_text = "oscar_telegrambot/messages/command_orders_detail_text.txt"
     context_object_name = "order"
     model = Order
     slug_field = 'number'
     
 class OrdersListView(generic.TemplateCommandView):
-    template_code = "orders_list"
+    template_text = "oscar_telegrambot/messages/command_orders_list_text.txt"
     
 class OrdersCommandView(generic.ListDetailCommandView):
     list_view_class = OrdersListView
