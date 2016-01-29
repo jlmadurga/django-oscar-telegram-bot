@@ -96,6 +96,6 @@ SECRET_KEY = 'notverysecret'
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 MIGRATION_MODULES = DisableMigrations()
 
-TELEGRAM_BOT_COMMANDS_CONF = "oscar_telegrambot.commands"
+TELEGRAM_BOT_HANDLERS_CONF = "oscar_telegrambot.handlers"
 TELEGRAM_BOT_TOKEN = "174446943:AAEcMXep4Uc51sAkYcTJC7vEoLmmxwnQgcc"
 
