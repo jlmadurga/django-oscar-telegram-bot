@@ -6,9 +6,7 @@ Configure in settings::
 
 	TELEGRAM_BOT_COMMANDS_CONF = "oscar_telegrambot.commands"
 	
-As other django-telegram-bot app set your bot token::
-
-	TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', None)
+As other django-telegram-bot app set your Bots with admin panel.
 	
 Add url to have webhook::
 
