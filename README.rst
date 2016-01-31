@@ -59,17 +59,11 @@ Configure in settings::
 
 	TELEGRAM_BOT_COMMANDS_CONF = "oscar_telegrambot.commands"
 	
-As other django-telegram-bot app set your bot token::
-
-	TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', None)
+As other django-telegram-bot app set your Bots with admin panel.
 	
 Add url to have webhook::
 
 	url(r'^telegrambot/', include('telegrambot.urls', namespace="telegrambot")),
-	
-Use command  ``set_webhook`` to specify the url to receive the incoming updates via webhook::
-
-	$ python manage.py set_webhook
 	
 To set the webhook for telegram you need ``django.contrib.sites`` installed, ``SITE_ID`` configured in settings and
 with it correct value in the DB.
