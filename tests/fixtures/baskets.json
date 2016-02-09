@@ -1,0 +1,41 @@
+[
+{
+  "fields": {
+    "status": "Submitted",
+    "date_merged": null,
+    "date_submitted": "2016-02-04T16:42:48.373Z",
+    "vouchers": [],
+    "owner": 3,
+    "date_created": "2016-02-04T16:41:29.867Z"
+  },
+  "model": "basket.basket",
+  "pk": 1
+},
+{
+  "fields": {
+    "status": "Open",
+    "date_merged": null,
+    "date_submitted": null,
+    "vouchers": [],
+    "owner": 3,
+    "date_created": "2016-02-04T16:42:48.909Z"
+  },
+  "model": "basket.basket",
+  "pk": 2
+},
+{
+  "fields": {
+    "price_currency": "GBP",
+    "product": 208,
+    "stockrecord": 202,
+    "price_incl_tax": "23.99",
+    "basket": 1,
+    "date_created": "2016-02-04T16:41:52.751Z",
+    "line_reference": "208_202",
+    "price_excl_tax": "23.99",
+    "quantity": 1
+  },
+  "model": "basket.line",
+  "pk": 1
+}
+]

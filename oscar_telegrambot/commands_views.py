@@ -1,5 +1,6 @@
 from oscar.core.loading import get_model, get_class
-from telegrambot import generic
+from telegrambot.bot_views import generic
+from telegrambot.models import AuthToken
 
 Category = get_model('catalogue', 'Category')
 Product = get_model('catalogue', 'Product')
@@ -37,7 +38,7 @@ class CategoryDetailView(generic.DetailCommandView):
                            ()).distinct()
         return qs
     
-    def get_context(self, update):
+    def get_context(self, bot, update):
         products = self.get_queryset().all()        
         context = {'context_object_name': products}
         if self.context_object_name:
@@ -75,8 +76,20 @@ class OrdersDetailView(generic.DetailCommandView):
     model = Order
     slug_field = 'number'
     
-class OrdersListView(generic.TemplateCommandView):
+class OrdersListView(generic.ListCommandView):
     template_text = "oscar_telegrambot/messages/command_orders_list_text.txt"
+    template_keyboard = "oscar_telegrambot/messages/command_orders_list_keyboard.txt"
+    context_object_name = "order_list"
+    model = Order
+    
+    def get_context(self, bot, update, **kwargs):
+        chat_id = update.message.chat.id
+        token = AuthToken.objects.get(chat_api__id=chat_id)
+        orders = self.get_queryset().filter(user=token.user)     
+        context = {'context_object_name': orders}
+        if self.context_object_name:
+            context[self.context_object_name] = orders
+        return context
     
 class OrdersCommandView(generic.ListDetailCommandView):
     list_view_class = OrdersListView
