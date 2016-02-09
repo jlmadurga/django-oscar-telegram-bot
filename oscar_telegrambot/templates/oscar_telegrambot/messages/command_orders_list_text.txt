@@ -1,2 +1,2 @@
-{% load i18n %}
-{% trans "Please provide order number to obtain details" %} _/orders_ _number_
+{% load i18n %}{% load currency_filters %}{% if order_list %}{% trans "This is the list of the orders:" %}
+{% for order in order_list %}Order {{ order.number }}- {{ order.total_incl_tax|currency:order.currency }}{% endfor %}{% else %}{% trans "You don't have any order" %}{% endif %}

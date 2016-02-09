@@ -70,7 +70,7 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 HAYSTACK_CONNECTIONS = {'default': {'ENGINE': 'haystack.backends.simple_backend.SimpleEngine'}}
-PASSWORD_HASHERS = ['django.contrib.auth.hashers.MD5PasswordHasher']
+#PASSWORD_HASHERS = ['django.contrib.auth.hashers.MD5PasswordHasher']
 ROOT_URLCONF = 'tests.urls'
 # LOGIN_REDIRECT_URL = '/accounts/'
 STATIC_URL = '/static/'
