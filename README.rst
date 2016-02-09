@@ -80,7 +80,7 @@ Features
 * Categories list command
 * Products list command
 * Product detail command
-* Order detail command
+* Order list&detail command only when logged
 
 Running Tests
 --------------
