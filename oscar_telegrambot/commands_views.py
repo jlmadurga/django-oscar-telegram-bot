@@ -38,7 +38,7 @@ class CategoryDetailView(generic.DetailCommandView):
                            ()).distinct()
         return qs
     
-    def get_context(self, bot, update):
+    def get_context(self, bot, update, **kwargs):
         products = self.get_queryset().all()        
         context = {'context_object_name': products}
         if self.context_object_name:
